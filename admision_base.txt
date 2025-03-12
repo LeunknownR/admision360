@@ -1,0 +1,40 @@
+# HERRAMIENTAS TECNOLÓGICAS
+
+* React JS (Frontend)
+* Java (Spring Boot)
+* MySQL (Base de datos)
+* Figma (Diseño UI / UX)
+
+# Módulos
+
+* Módulo de inscripción de postulante.
+* Módulo de generación de exámenes de admisión.
+
+# BASE DE DATOS
+
+Docente:
+* DNI
+* Contraseña
+* Nombres y apellidos
+
+Estudiante:
+* Nombres y apellidos
+* Tipo de Documento
+* Número de Documento
+* Sexo
+* Fecha de nacimiento
+* Edad
+* Estado civil
+* Nro. Hijos
+* Procedencia
+* Lugar de nacimiento (País, Departamento, Provincia, Distrito)
+* Dirección
+* Correo
+* Teléfono
+* Ocupación
+* Tiene discapacidad
+* Apoderado (Nombres, Ocupación, Parentezco, Teléfono, Correo)
+* Estudios de Educación Secundaria (tipo de colegio, institución, departamento, provincia, dirección).
+* Pago (entidad financiera, nro. operación, fecha de pago)
+* Facultad y escuela
+* Fotos de: DNI, Certificado de estudios de secundaria, Declaración jurada de veracidad de documentos, Declaración jurada de no tener antecedentes penales)
