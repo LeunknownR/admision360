@@ -1,0 +1,176 @@
+{
+	"info": {
+		"_postman_id": "abf86d43-0c67-450a-9512-04177c4457fb",
+		"name": "admision360",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29518795"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"newuser\",\r\n  \"password\": \"passwsasdord123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL_LOCALHOST}}/auth/login",
+					"host": [
+						"{{URL_LOCALHOST}}"
+					],
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"username\": \"newuser\",\r\n        \"password\": \"password123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL_LOCALHOST}}/auth/register",
+					"host": [
+						"{{URL_LOCALHOST}}"
+					],
+					"path": [
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ubigeo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL_LOCALHOST}}/ubigeo",
+					"host": [
+						"{{URL_LOCALHOST}}"
+					],
+					"path": [
+						"ubigeo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "majors",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL_LOCALHOST}}/majors",
+					"host": [
+						"{{URL_LOCALHOST}}"
+					],
+					"path": [
+						"majors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "family",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL_LOCALHOST}}/family",
+					"host": [
+						"{{URL_LOCALHOST}}"
+					],
+					"path": [
+						"family"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "enroll",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"dni\": \"12345678\",\r\n  \"name\": \"Juan\",\r\n  \"surname\": \"Pérez García\",\r\n  \"gender\": \"M\",\r\n  \"birthdate\": \"2000-05-15\",\r\n  \"email\": \"peresillo@example.com\",\r\n  \"phone\": \"987654321\",\r\n  \"occupation\": \"Estudiante\",\r\n  \"originDepartmentId\": 1,\r\n  \"originProvinceId\": 2,\r\n  \"originDistrictId\": 3,\r\n  \"originAddress\": \"Av. Los Álamos 123\",\r\n  \"studiesInstitutionType\": \"E\",\r\n  \"studiesCompleted\": true,\r\n  \"studiesEndYear\": \"2022\",\r\n  \"studiesDepartmentId\": 1,\r\n  \"studiesProvinceId\": 2,\r\n  \"studiesDistrictId\": 3,\r\n  \"studiesAddress\": \"Av. Las Palmeras 456\",\r\n  \"studiesInstitutionName\": \"Colegio Nacional San Martín\",\r\n  \"representativeFullname\": \"María Pérez\",\r\n  \"representativeFamilyRelationshipId\": 1,\r\n  \"representativeEmail\": \"maria.perez@example.com\",\r\n  \"representativePhone\": \"912345678\",\r\n  \"representativeOccupation\": \"Ingeniera\",\r\n  \"majorId\": 5,\r\n  \"facultyId\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL_LOCALHOST}}/enroll",
+					"host": [
+						"{{URL_LOCALHOST}}"
+					],
+					"path": [
+						"enroll"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "URL_LOCALHOST",
+			"value": "http://localhost:9095",
+			"type": "string"
+		}
+	]
+}
