@@ -5,4 +5,7 @@ export const Container = styled.section`
 	flex-direction: column;
 	gap: 10px;
 	margin: 60px 60px;
+	button {
+		align-self: flex-end;
+	}
 `;

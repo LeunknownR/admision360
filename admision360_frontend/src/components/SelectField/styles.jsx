@@ -4,10 +4,16 @@ export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
-	width: 100%;
+	width: ${({ w = "100%" }) => w};
+	max-width: ${({ maxw = "280px" }) => maxw};
 	&.empty {
-		[data-role=input] div {
+		[data-role="input"] div {
 			color: var(--placeholder);
+		}
+	}
+	&.error {
+		[data-role="input"] {
+			border-color: var(--error);
 		}
 	}
 `;
@@ -21,10 +27,10 @@ export const Input = styled.div`
 	border: 1px inset var(--primary);
 	padding: 10px 15px;
 	outline: none;
-	cursor: default;
 `;
 export const Wrapper = styled.div`
 	position: relative;
+	cursor: pointer;
 `;
 export const OptionWrapper = styled.ul`
 	position: absolute;

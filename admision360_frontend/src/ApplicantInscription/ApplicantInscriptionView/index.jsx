@@ -1,130 +1,137 @@
-import SelectField from "../../components/SelectField";
+import Button from "../../components/Button";
 import { Flow, Title } from "../../components/styles";
-import TextField from "../../components/TextField";
-import ApplicantFieldGroup from "./ApplicantFieldGroup";
+import ApplicantDataSection from "./components/ApplicantDataSection";
+import ApplicantMajorSection from "./components/ApplicantMajorSection";
+import ApplicantOriginSection from "./components/ApplicantOriginSection";
+import ApplicantDocumentSection from "./components/ApplicantDocumentSection";
+import ApplicantStudiesSection from "./components/ApplicantStudiesSection";
 import useApplicantInscriptionForm from "./hooks/useApplicantInscriptionForm";
+import useSelectMajor from "./hooks/useSelectMajor";
 import { Container } from "./styles";
+import useEnroll from "./hooks/useEnroll";
+import ApplicantRepresentativeSection from "./components/ApplicantRepresentativeSection";
 
 const ApplicantInscriptionView = () => {
 	const form = useApplicantInscriptionForm();
+	const majors = [
+		{
+			id: 1,
+			name: "Ing. de sistemas",
+			professionalSchool: "Ing. de sistemas",
+			faculty: {
+				id: 1,
+				name: "Ing. de sistemas",
+			},
+		},
+		{
+			id: 2,
+			name: "Ing. mecánica eléctrica",
+			professionalSchool: "Ing. mecánica eléctrica",
+			faculty: {
+				id: 2,
+				name: "Ing. mecánica eléctrica y electrónica",
+			},
+		},
+		{
+			id: 3,
+			name: "Ing. electrónica",
+			professionalSchool: "Ing. electrónica",
+			faculty: {
+				id: 2,
+				name: "Ing. mecánica eléctrica y electrónica",
+			},
+		},
+	];
+	const ubigeo = {
+		departments: [
+			{
+				value: 1,
+				display: "Ica",
+			},
+		],
+		provinces: [
+			{
+				value: 1,
+				display: "Ica",
+			},
+		],
+		districts: [
+			{
+				value: 1,
+				display: "Ica",
+			},
+		],
+	};
+	const familyRelationships = [
+		{
+			id: 1,
+			name: "Padre",
+		},
+		{
+			id: 2,
+			name: "Madre",
+		},
+		{
+			id: 3,
+			name: "Tío",
+		},
+		{
+			id: 4,
+			name: "Hermano",
+		},
+	];
+	const enroll = useEnroll({ form });
+	const majorSelected = useSelectMajor({
+		form,
+		majors,
+	});
 	return (
 		<Container>
-			<Title mb="15px">INSCRIPCIÓN - ADMISIÓN 2025-I</Title>
+			<Title mb="30px">INSCRIPCIÓN - ADMISIÓN 2025-I</Title>
 			<Flow
 				direction="column"
 				gap="40px"
+				mb="30px"
 			>
-				<ApplicantFieldGroup title="DATOS DEL POSTULANTE">
-					<Flow>
-						<TextField
-							label="DNI"
-							placeholder="Ejm: 12345678"
-							handler={form.dni}
-						/>
-						<TextField
-							label="Nombres"
-							placeholder="Ejm: Shelsy"
-							handler={form.name}
-						/>
-						<TextField
-							label="Apellidos"
-							placeholder="Ejm: Cordero"
-							handler={form.surname}
-						/>
-					</Flow>
-					<Flow>
-						<TextField
-							type="date"
-							label="Fecha de nacimiento"
-							handler={form.birthdate}
-						/>
-						<TextField
-							label="Correo electrónico"
-							placeholder="Ejm: example@gmail.com"
-							handler={form.email}
-						/>
-						<TextField
-							label="Número telefónico"
-							placeholder="Ejm: 900800700"
-							handler={form.phone}
-						/>
-						<TextField
-							label="Ocupación"
-							placeholder="Ejm: Desarrollador de software"
-							handler={form.occupation}
-						/>
-					</Flow>
-				</ApplicantFieldGroup>
-				<ApplicantFieldGroup title="LUGAR DE PROCEDENCIA">
-					<Flow>
-						<SelectField
-							label="Departamento"
-							placeholder="Elige un departamento"
-							handler={form.originDepartmentId}
-							options={[
-								{
-									value: 1,
-									display: "Ica",
-								},
-							]}
-						/>
-						<SelectField
-							label="Provincia"
-							placeholder="Elige un provincia"
-							handler={form.originProvinceId}
-							options={[
-								{
-									value: 1,
-									display: "Ica",
-								},
-							]}
-						/>
-						<SelectField
-							label="Distrito"
-							placeholder="Elige un distrito"
-							handler={form.originDistrictId}
-							options={[
-								{
-									value: 1,
-									display: "Ica",
-								},
-							]}
-						/>
-						<TextField
-							label="Dirección"
-							placeholder="Ejm: Calle Javier Milei 666"
-							handler={form.occupation}
-						/>
-					</Flow>
-				</ApplicantFieldGroup>
-				<ApplicantFieldGroup title="CARRERA PROFESIONAL">
-					<Flow>
-						<SelectField
-							label="Carrera"
-							placeholder="Elige una carrera"
-							handler={form.majorId}
-							options={[
-								{
-									value: 1,
-									display: "Ing. de sistemas",
-								},
-							]}
-						/>
-						<TextField
-							label="Facultad"
-							placeholder="-"
-							handler={form.majorFaculty}
-							disabled={true}
-						/>
-						<TextField
-							label="Escuela académica"
-							placeholder="-"
-							handler={form.majorProfessionalSchool}
-							disabled={true}
-						/>
-					</Flow>
-				</ApplicantFieldGroup>
+				<ApplicantDataSection form={form} />
+				<ApplicantOriginSection
+					form={form}
+					ubigeo={ubigeo}
+				/>
+				<ApplicantStudiesSection
+					form={form}
+					ubigeo={ubigeo}
+				/>
+				<ApplicantRepresentativeSection
+					form={form}
+					familyRelationships={familyRelationships}
+				/>
+				<ApplicantMajorSection
+					form={form}
+					majors={majors}
+					majorSelected={majorSelected}
+				/>
+				<ApplicantDocumentSection form={form} />
 			</Flow>
+			<Button
+				text="Completar inscripción"
+				styles={{
+					w: "25%",
+				}}
+				onClick={() => {
+					const result = enroll();
+					if (!result)
+						window.scrollTo({
+							top:
+								document
+									.querySelector(
+										"[data-role='error-message']"
+									)
+									?.closest(".error")?.offsetTop || 0,
+							behavior: "smooth",
+						});
+				}}
+			/>
 		</Container>
 	);
 };

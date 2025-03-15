@@ -6,11 +6,6 @@ export const Container = styled.div`
 	gap: 10px;
 	width: ${({ w = "100%" }) => w};
 	max-width: ${({ maxw = "250px" }) => maxw};
-	&.error {
-		input {
-			border-color: var(--error);
-		}
-	}
 `;
 export const Input = styled.input`
 	font-size: 16px;
@@ -18,4 +13,3 @@ export const Input = styled.input`
 	border: 1px inset var(--primary);
 	padding: 10px 15px;
 `;
-

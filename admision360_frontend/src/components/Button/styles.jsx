@@ -11,6 +11,8 @@ export const Container = styled.button`
   font-size: 18px;
   border-radius: 5px;
   transition: 0.2s;
+  width: ${({ w = "100%" }) => w};
+  cursor: pointer;
   :disabled {
     opacity: 0.5;
   }

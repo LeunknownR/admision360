@@ -5,8 +5,10 @@ import ArrowIcon from "../../icons/ArrowIcon";
 import { useEffect } from "react";
 import { useState } from "react";
 import { useRef } from "react";
+import { HandlerFieldPropType } from "../../common-prop-types";
+import ErrorMessage from "../ErrorMessage";
 
-const SelectField = ({ label, placeholder, options, handler }) => {
+const SelectField = ({ label, placeholder, options, handler, styles = {} }) => {
 	const [currentDisplay, setCurrentDisplay] = useState("");
 	const [open, setOpen] = useState(false);
 	const containerRef = useRef();
@@ -33,6 +35,7 @@ const SelectField = ({ label, placeholder, options, handler }) => {
 	}, [handler.value]);
 	function getClassName() {
 		const classList = [];
+		if (handler.error.value) classList.push("error");
 		if (!handler.value)
 			classList.push("empty");
 		return classList.join(" ");
@@ -42,7 +45,7 @@ const SelectField = ({ label, placeholder, options, handler }) => {
 		setOpen(false);
 	}
 	return (
-		<Container ref={containerRef} className={getClassName()}>
+		<Container ref={containerRef} className={getClassName()} {...styles}>
 			<Label>{label}</Label>
 			<Wrapper>
 				<Input
@@ -66,6 +69,7 @@ const SelectField = ({ label, placeholder, options, handler }) => {
 					</OptionWrapper>
 				) : null}
 			</Wrapper>
+			<ErrorMessage error={handler.error.value} />
 		</Container>
 	);
 };
@@ -78,7 +82,8 @@ SelectField.propTypes = {
 			display: PropTypes.string,
 		})
 	),
-	handler: PropTypes.object,
+	handler: HandlerFieldPropType,
+	styles: PropTypes.object,
 };
 
 export default SelectField;

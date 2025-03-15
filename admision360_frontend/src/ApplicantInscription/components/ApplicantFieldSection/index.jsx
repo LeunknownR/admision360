@@ -2,17 +2,17 @@ import PropTypes from "prop-types";
 import { Container, Fields } from "./styles";
 import { TitleSection } from "../../../components/styles";
 
-const ApplicantFieldGroup = ({ title, children }) => {
+const ApplicantFieldSection = ({ title, children }) => {
 	return (
 		<Container>
-			<TitleSection>{title}</TitleSection>
+			<TitleSection mb="15px">{title}</TitleSection>
 			<Fields>{children}</Fields>
 		</Container>
 	);
 };
-ApplicantFieldGroup.propTypes = {
+ApplicantFieldSection.propTypes = {
 	title: PropTypes.string,
 	children: PropTypes.node,
 };
 
-export default ApplicantFieldGroup;
+export default ApplicantFieldSection;

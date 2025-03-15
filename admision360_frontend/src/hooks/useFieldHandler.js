@@ -1,17 +1,29 @@
-const useFieldHandler = ({ form, setForm }) => {
+
+
+const useFieldHandler = ({ form, setForm, errors, setErrors }) => {
 	function setField(field, value) {
 		setForm(prev => ({
 			...prev,
 			[field]: value,
 		}));
+		setErrors(prev => ({
+			...prev,
+			[field]: null,
+		}));
 	}
-	function getFieldHandler(field, afterSet) {
+	function setFieldError(field, error) {
+		setErrors(prev => ({
+			...prev,
+			[field]: error,
+		}));
+	}
+	function getFieldHandler(field) {
 		return {
 			value: form[field],
-			set: value => {
-				setField(field, value);
-				if (afterSet)
-					afterSet(value)
+			set: value => setField(field, value),
+			error: {
+				value: errors[field],
+				set: error => setFieldError(field, error),
 			},
 		};
 	}
