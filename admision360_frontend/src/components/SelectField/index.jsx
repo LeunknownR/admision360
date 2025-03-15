@@ -38,6 +38,7 @@ const SelectField = ({ label, placeholder, options, handler, styles = {} }) => {
 		if (handler.error.value) classList.push("error");
 		if (!handler.value)
 			classList.push("empty");
+		if (options.length === 0) classList.push("disabled");
 		return classList.join(" ");
 	}
 	function onChange(value) {

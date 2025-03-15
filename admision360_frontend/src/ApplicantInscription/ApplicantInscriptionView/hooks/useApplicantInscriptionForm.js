@@ -17,6 +17,14 @@ const useApplicantInscriptionForm = () => {
 	function hasErrors() {
 		return Object.values(errors).some(error => error);
 	}
+	const originDistrictId = getFieldHandler("originDistrictId");
+	const originProvinceId = getFieldHandler("originProvinceId", () => {
+		originDistrictId.set(0);
+	});
+	const studiesDistrictId = getFieldHandler("studiesDistrictId");
+	const studiesProvinceId = getFieldHandler("studiesProvinceId", () => {
+		studiesDistrictId.set(0);
+	});
 	return {
 		values: form,
 		hasErrors,
@@ -29,16 +37,22 @@ const useApplicantInscriptionForm = () => {
 		email: getFieldHandler("email"),
 		phone: getFieldHandler("phone"),
 		occupation: getFieldHandler("occupation"),
-		originDepartmentId: getFieldHandler("originDepartmentId"),
-		originProvinceId: getFieldHandler("originProvinceId"),
-		originDistrictId: getFieldHandler("originDistrictId"),
+		originDepartmentId: getFieldHandler("originDepartmentId", () => {
+			originProvinceId.set(0);
+			originDistrictId.set(0);
+		}),
+		originProvinceId,
+		originDistrictId,
 		originAddress: getFieldHandler("originAddress"),
 		studiesInstitutionType: getFieldHandler("studiesInstitutionType"),
 		studiesCompleted: getFieldHandler("studiesCompleted"),
 		studiesEndYear: getFieldHandler("studiesEndYear"),
-		studiesDepartmentId: getFieldHandler("studiesDepartmentId"),
-		studiesProvinceId: getFieldHandler("studiesProvinceId"),
-		studiesDistrictId: getFieldHandler("studiesDistrictId"),
+		studiesDepartmentId: getFieldHandler("studiesDepartmentId", () => {
+			studiesProvinceId.set(0);
+			studiesDistrictId.set(0);
+		}),
+		studiesProvinceId,
+		studiesDistrictId,
 		studiesAddress: getFieldHandler("studiesAddress"),
 		studiesInstitutionName: getFieldHandler("studiesInstitutionName"),
 		representativeFullname: getFieldHandler("representativeFullname"),
