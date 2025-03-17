@@ -3,10 +3,19 @@ import RadioField from "../../../components/RadioField";
 import { Flow } from "../../../components/styles";
 import TextField from "../../../components/TextField";
 import ApplicantFieldSection from "../../components/ApplicantFieldSection";
-import { INSTITUTION_TYPE_OPTIONS, STUDIES_COMPLETED_OPTIONS } from "../../constants";
+import {
+	INSTITUTION_TYPE_OPTIONS,
+	STUDIES_COMPLETED_OPTIONS,
+} from "../../constants";
 import SelectField from "../../../components/SelectField";
+import useSegmentedUbigeo from "../hooks/useSegmentedUbigeo";
 
 const ApplicantStudiesSection = ({ form, ubigeo }) => {
+	const { departments, provinces, districts } = useSegmentedUbigeo({
+		ubigeo,
+		departmentId: form.studiesDepartmentId.value,
+		provinceId: form.studiesProvinceId.value,
+	});
 	return (
 		<ApplicantFieldSection title="ESTUDIOS DE SECUNDARIA">
 			<Flow>
@@ -36,19 +45,28 @@ const ApplicantStudiesSection = ({ form, ubigeo }) => {
 					label="Distrito"
 					placeholder="Elige un departamento"
 					handler={form.studiesDepartmentId}
-					options={ubigeo.departments}
+					options={departments.map(({ id, name }) => ({
+						value: id,
+						display: name,
+					}))}
 				/>
 				<SelectField
 					label="Provincia"
 					placeholder="Elige un provincia"
 					handler={form.studiesProvinceId}
-					options={ubigeo.provinces}
+					options={provinces.map(({ id, name }) => ({
+						value: id,
+						display: name,
+					}))}
 				/>
 				<SelectField
 					label="Distrito"
 					placeholder="Elige un distrito"
 					handler={form.studiesDistrictId}
-					options={ubigeo.districts}
+					options={districts.map(({ id, name }) => ({
+						value: id,
+						display: name,
+					}))}
 				/>
 				<TextField
 					label="Dirección"

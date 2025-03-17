@@ -5,8 +5,8 @@ import io.jsonwebtoken.SignatureAlgorithm;
 import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pe.edu.howards.admision360_backend.domain.entity.Admin;
-import pe.edu.howards.admision360_backend.domain.repository.AdminRepository;
+import pe.edu.howards.admision360_backend.entity.Admin;
+import pe.edu.howards.admision360_backend.repository.impl.AdminRepositoryImpl;
 import pe.edu.howards.admision360_backend.request.AuthRequest;
 import pe.edu.howards.admision360_backend.request.RegisterRequest;
 import pe.edu.howards.admision360_backend.response.AuthResponse;
@@ -19,18 +19,18 @@ import java.util.Map;
 @Service
 public class AuthServiceImpl implements AuthService {
     
-    private final AdminRepository adminRepository;
+    private final AdminRepositoryImpl adminRepositoryImpl;
     private final String JWT_SECRET = "admision360_jwt_secret_key";
     private final long JWT_EXPIRATION = 86400000; // 24 hours in milliseconds
     
     @Autowired
-    public AuthServiceImpl(AdminRepository adminRepository) {
-        this.adminRepository = adminRepository;
+    public AuthServiceImpl(AdminRepositoryImpl adminRepositoryImpl) {
+        this.adminRepositoryImpl = adminRepositoryImpl;
     }
     
     @Override
     public AuthResponse login(AuthRequest request) {
-        Admin admin = adminRepository.findByUsername(request.getUsername());
+        Admin admin = adminRepositoryImpl.findByUsername(request.getUsername());
         
         if (admin != null && BCrypt.checkpw(request.getPassword(), admin.getPassword())) {
             String token = generateToken(admin.getUsername());
@@ -46,7 +46,7 @@ public class AuthServiceImpl implements AuthService {
         String hashedPassword = BCrypt.hashpw(request.getPassword(), BCrypt.gensalt(12));
         
         // Create the admin in the database
-        boolean success = adminRepository.createAdmin(
+        boolean success = adminRepositoryImpl.createAdmin(
             request.getUsername(),
             hashedPassword,
             request.getName()

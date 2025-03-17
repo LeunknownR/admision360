@@ -1,13 +1,16 @@
 import AppHeader from "./components/AppHeader";
-import MasterRouter from "./MasterRouter";
+import AppContextProvider from "./context/AppContextProvider";
+import MasterRouter from "./router/MasterRouter";
 import { Main } from "./styles";
 
 const App = () => {
 	return (
-		<Main>
-			<AppHeader />
-			<MasterRouter />
-		</Main>
+		<AppContextProvider>
+			<Main>
+				<AppHeader />
+				<MasterRouter />
+			</Main>
+		</AppContextProvider>
 	);
 };
 

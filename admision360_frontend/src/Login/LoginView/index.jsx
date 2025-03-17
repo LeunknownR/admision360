@@ -1,36 +1,47 @@
 import Button from "../../components/Button";
+import ViewHeader from "../../components/ViewHeader";
 import TextField from "../../components/TextField";
 import useLoginForm from "./hooks/useLoginForm";
-import useLoginAction from "./hooks/useLoginAction";
-import { Card, CardFields, CardHeader, Container } from "./styles";
+import useLogin from "./hooks/useLogin";
+import { Card, CardFields, Container } from "./styles";
+import ErrorMessage from "../../components/ErrorMessage";
+import { useState } from "react";
 
 const LoginView = () => {
-	const form = useLoginForm();
-	const login = useLoginAction({ form: form.values });
+	const [globalError, setGlobalError] = useState(null);
+	const form = useLoginForm({ setGlobalError });
+	const login = useLogin({ form, setGlobalError });
 	return (
 		<Container>
 			<Card>
-				<CardHeader>
-					<h2>INICIAR SESIÓN</h2>
-					<h3>Panel de administración</h3>
-				</CardHeader>
+				<ViewHeader
+					title="INICIAR SESIÓN"
+					subtitle="Panel de administración"
+				/>
 				<CardFields>
 					<TextField
 						label="Usuario"
 						placeholder="Ejm: scordero"
 						handler={form.username}
+						styles={{
+							maxw: "unset",
+						}}
 					/>
 					<TextField
 						type="password"
 						label="Contraseña"
 						placeholder="********"
 						handler={form.password}
+						styles={{
+							maxw: "unset",
+						}}
 					/>
+					<ErrorMessage error={globalError} />
 				</CardFields>
 				<Button
 					text="Iniciar sesión"
-					disabled={!form.completed}
-					onClick={login}
+					disabled={!form.completed || login.isLoading}
+					onClick={login.action}
 				/>
 			</Card>
 		</Container>

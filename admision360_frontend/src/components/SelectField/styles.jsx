@@ -6,9 +6,18 @@ export const Container = styled.div`
 	gap: 10px;
 	width: ${({ w = "100%" }) => w};
 	max-width: ${({ maxw = "280px" }) => maxw};
+	transition: opacity 0.1s;
 	&.empty {
 		[data-role="input"] div {
 			color: var(--placeholder);
+		}
+	}
+	&.disabled {
+		opacity: 0.5;
+		&,
+		* {
+			cursor: default;
+			pointer-events: none;
 		}
 	}
 	&.error {
@@ -37,6 +46,7 @@ export const OptionWrapper = styled.ul`
 	z-index: 3;
 	top: 100%;
 	left: 0;
+	z-index: 2;
 	width: 100%;
 	border: 1px inset var(--primary);
 	border-radius: 5px;
@@ -44,6 +54,8 @@ export const OptionWrapper = styled.ul`
 	margin: 0;
 	margin-top: 5px;
 	padding: 0;
+	max-height: 250px;
+	overflow-y: auto;
 `;
 export const Option = styled.li`
 	padding: 10px 20px;
