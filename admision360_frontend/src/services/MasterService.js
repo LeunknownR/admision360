@@ -14,6 +14,3 @@ export default class MasterService {
 		return response.data.data;
 	}
 }
-
-
-

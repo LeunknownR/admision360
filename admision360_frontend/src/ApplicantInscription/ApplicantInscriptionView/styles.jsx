@@ -1,10 +1,7 @@
 import styled from "styled-components";
+import { ViewContainer } from "../../components/styles";
 
-export const Container = styled.section`
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-	margin: 60px 60px;
+export const Container = styled(ViewContainer)`
 	button {
 		align-self: flex-end;
 	}

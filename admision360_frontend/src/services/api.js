@@ -7,4 +7,14 @@ const api = axios.create({
 	},
 });
 
+export async function handleError(action) {
+	try {
+		const response = await action();
+		return response.data;
+	}
+	catch (error) {
+		return error.response.data;
+	}
+}
+
 export default api;

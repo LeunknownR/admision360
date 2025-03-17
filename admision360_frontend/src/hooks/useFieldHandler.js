@@ -5,27 +5,29 @@ const useFieldHandler = ({ form, setForm, errors, setErrors }) => {
 			...prev,
 			[field]: value,
 		}));
-		setErrors(prev => ({
-			...prev,
-			[field]: null,
-		}));
+		if (setErrors)
+			setErrors(prev => ({
+				...prev,
+				[field]: null,
+			}));
 		afterSet();
 	}
 	function setFieldError(field, error) {
 		if (error === errors[field]) return;
-		setErrors(prev => ({
-			...prev,
-			[field]: error,
-		}));
+		if (setErrors)
+			setErrors(prev => ({
+				...prev,
+				[field]: error,
+			}));
 	}
 	function getFieldHandler(field, afterSet) {
 		return {
 			value: form[field],
 			set: value => setField(field, value, afterSet),
-			error: {
+			error: errors && setErrors ? {
 				value: errors[field],
 				set: error => setFieldError(field, error),
-			},
+			} : null,
 		};
 	}
 	return getFieldHandler;

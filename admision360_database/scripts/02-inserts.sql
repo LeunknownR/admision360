@@ -374,6 +374,7 @@ INSERT INTO major(name, professional_school, faculty_id) VALUES
 ('Odontología','Odontología',23),
 ('Psicología','Psicología',24);
 
-INSERT INTO applicant(dni,name,surname,gender,birth_date,email,phone,applying_date,origin_district_id,origin_province_id,origin_department_id,mayor_id,faculty_id)
-VALUES('12345678','Juan','Perez','M','1990-01-01','juan.perez@gmail.com','12345678','2023-01-01',1,1,1,1,1),
-('12345679','Ana','Garcia','F','1990-01-01','ana.garcia@gmail.com','12345679','2023-01-01',1,1,1,1,1);
+
+INSERT academic_period(id, name) VALUES 
+	('001', '2024 - I'),
+	('002', '2024 - II');

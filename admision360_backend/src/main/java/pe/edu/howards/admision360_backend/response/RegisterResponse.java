@@ -4,9 +4,6 @@ public class RegisterResponse {
     private String username;
     private String name;
 
-    public RegisterResponse() {
-    }
-
     public RegisterResponse(String username, String name) {
         this.username = username;
         this.name = name;

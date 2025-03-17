@@ -37,3 +37,9 @@ export const Grid = styled.div`
 	grid-template-columns: ${({ columns = "repeat(2, 1fr)" }) => columns};
 	gap: ${({ gap = "20px" }) => gap};
 `;
+export const ViewContainer = styled.section`
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin: 60px 60px;
+`;

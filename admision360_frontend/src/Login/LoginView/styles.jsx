@@ -27,20 +27,3 @@ export const CardFields = styled.div`
 	gap: 20px;
 	width: 100%;
 `;
-export const CardHeader = styled.header`
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 10px;
-	& > * {
-		margin: 0;
-		color: var(--quaternary);
-	}
-	h2 {
-		font-size: 25px;
-	}
-	h3 {
-		font-size: 15px;
-		font-weight: 400;
-	}
-`;

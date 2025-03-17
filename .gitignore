@@ -58,3 +58,4 @@ dist-ssr
 *.sw?
 
 mysql_data
+uploads

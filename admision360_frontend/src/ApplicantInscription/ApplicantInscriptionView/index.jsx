@@ -1,5 +1,5 @@
 import Button from "../../components/Button";
-import { Flow, Title } from "../../components/styles";
+import { Flow } from "../../components/styles";
 import ApplicantDataSection from "./components/ApplicantDataSection";
 import ApplicantMajorSection from "./components/ApplicantMajorSection";
 import ApplicantOriginSection from "./components/ApplicantOriginSection";
@@ -11,6 +11,7 @@ import { Container } from "./styles";
 import useEnroll from "./hooks/useEnroll";
 import ApplicantRepresentativeSection from "./components/ApplicantRepresentativeSection";
 import useAppContext from "../../context/useAppContext";
+import ViewHeader from "../../components/ViewHeader";
 
 const ApplicantInscriptionView = () => {
 	const form = useApplicantInscriptionForm();
@@ -21,9 +22,20 @@ const ApplicantInscriptionView = () => {
 		form,
 		majors,
 	});
+	function completeEnrollment() {
+		const result = enroll();
+		if (!result)
+			window.scrollTo({
+				top: document.querySelector("[data-role='error-message']")?.closest(".error")?.offsetTop || 0,
+				behavior: "smooth",
+			});
+	}
 	return (
 		<Container>
-			<Title mb="30px">INSCRIPCIÓN - ADMISIÓN 2025-I</Title>
+			<ViewHeader
+				title="INSCRIPCIÓN - ADMISIÓN 2025-I"
+				subtitle="Completa tus datos para inscribirte en el examen de admisión del periodo actual"
+			/>
 			<Flow
 				direction="column"
 				gap="40px"
@@ -54,19 +66,7 @@ const ApplicantInscriptionView = () => {
 				styles={{
 					w: "25%",
 				}}
-				onClick={() => {
-					const result = enroll();
-					if (!result)
-						window.scrollTo({
-							top:
-								document
-									.querySelector(
-										"[data-role='error-message']"
-									)
-									?.closest(".error")?.offsetTop || 0,
-							behavior: "smooth",
-						});
-				}}
+				onClick={completeEnrollment}
 			/>
 		</Container>
 	);

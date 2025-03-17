@@ -35,7 +35,7 @@ const SelectField = ({ label, placeholder, options, handler, styles = {} }) => {
 	}, [handler.value]);
 	function getClassName() {
 		const classList = [];
-		if (handler.error.value) classList.push("error");
+		if (handler.error?.value) classList.push("error");
 		if (!handler.value)
 			classList.push("empty");
 		if (options.length === 0) classList.push("disabled");
@@ -70,7 +70,7 @@ const SelectField = ({ label, placeholder, options, handler, styles = {} }) => {
 					</OptionWrapper>
 				) : null}
 			</Wrapper>
-			<ErrorMessage error={handler.error.value} />
+			<ErrorMessage error={handler.error?.value} />
 		</Container>
 	);
 };

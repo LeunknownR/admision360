@@ -1,7 +1,7 @@
 import { useState } from "react";
 import useFieldHandler from "../../../hooks/useFieldHandler";
 
-const useLoginForm = () => {
+const useLoginForm = ({ setGlobalError }) => {
 	const [form, setForm] = useState({
 		username: "",
 		password: "",
@@ -13,8 +13,8 @@ const useLoginForm = () => {
 	}
 	return {
 		values: form,
-		username: getFieldHandler("username"),
-		password: getFieldHandler("password"),
+		username: getFieldHandler("username", () => setGlobalError(null)),
+		password: getFieldHandler("password", () => setGlobalError(null)),
 		completed: areCompleted(),
 	};
 };

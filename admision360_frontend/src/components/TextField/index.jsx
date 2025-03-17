@@ -15,7 +15,7 @@ const TextField = ({
 }) => {
 	return (
 		<Container 
-			className={handler.error.value ? "error" : ""}
+			className={handler.error?.value ? "error" : ""}
 			{...styles}>
 			<Label>{label}</Label>
 			<Input
@@ -26,7 +26,7 @@ const TextField = ({
 				maxLength={maxLength}
 				disabled={disabled}
 			/>
-			<ErrorMessage error={handler.error.value} />
+			<ErrorMessage error={handler.error?.value} />
 		</Container>
 	);
 };

@@ -1,6 +1,6 @@
 import AppHeader from "./components/AppHeader";
 import AppContextProvider from "./context/AppContextProvider";
-import MasterRouter from "./MasterRouter";
+import MasterRouter from "./router/MasterRouter";
 import { Main } from "./styles";
 
 const App = () => {
