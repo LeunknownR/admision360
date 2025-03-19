@@ -22,7 +22,7 @@ const ApplicantDocumentSection = ({ form }) => {
 					handler={form.statementNotCriminalFilename}
 					accept=".pdf"
 				/>
-				{form.studiesCompleted.value && (
+				{!form.studiesCompleted.value && (
 					<>
 						<FileField
 							label="Compromiso de entregar certificado de estudios en caso ingresar (SOLO 5° año de secundaria) (en .pdf)"

@@ -8,4 +8,8 @@ export default class ExamService {
 	static async generateExams(data) {
 		return handleError(() => api.post('/generate-exams', data));
 	}
+	static async qualifyExams(data) {
+		const response = await handleError(() => api.post('/qualify-exams', data));
+		return response.data;
+	}
 }

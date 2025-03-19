@@ -33,7 +33,7 @@ const ApplicantInscriptionView = () => {
 	return (
 		<Container>
 			<ViewHeader
-				title="INSCRIPCIÓN - ADMISIÓN 2025-I"
+				title="INSCRIPCIÓN - ADMISIÓN 2024-II"
 				description="Completa tus datos para inscribirte en el examen de admisión del periodo actual"
 			/>
 			<Flow

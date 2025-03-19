@@ -5,7 +5,6 @@ import PropTypes from "prop-types";
 
 const PublicRoute = ({ children }) => {
 	const isAuthenticated = useAuthenticated();
-	console.log(isAuthenticated);
 	if (isAuthenticated === null) return null;
 	if (!isAuthenticated) return children;
 	return <Navigate to={AppRoutes.administrationPanel} />;

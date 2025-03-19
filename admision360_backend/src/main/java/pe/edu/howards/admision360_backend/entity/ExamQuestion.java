@@ -8,6 +8,7 @@ public class ExamQuestion {
     private String C;
     private String D;
     private String E;
+    private int bankQuestionNumber;
     public ExamQuestion(BankQuestion bankQuestion) {
         this.question = bankQuestion.getQuestion();
         this.photo = bankQuestion.getPhoto();
@@ -16,6 +17,7 @@ public class ExamQuestion {
         this.C = bankQuestion.getC();
         this.D = bankQuestion.getD();
         this.E = bankQuestion.getE();
+        this.bankQuestionNumber = bankQuestion.getNumber();
     }
     public String getQuestion() {
         return question;
@@ -37,5 +39,8 @@ public class ExamQuestion {
     }
     public String getE() {
         return E;
+    }
+    public int getBankQuestionNumber() {
+        return bankQuestionNumber;
     }
 }

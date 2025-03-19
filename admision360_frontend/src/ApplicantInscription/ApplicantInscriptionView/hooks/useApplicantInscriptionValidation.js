@@ -114,14 +114,14 @@ const useApplicantInscriptionValidation = ({ form }) => {
 	};
 	const validateRepresentative = () => {
 		const {
-			representativeFullname,
+			representativeFullName,
 			representativeEmail,
 			representativeFamilyRelationshipId,
 			representativeOccupation,
 			representativePhone,
 		} = form;
-		if (representativeFullname.value.length === 0)
-			representativeFullname.error.set(
+		if (representativeFullName.value.length === 0)
+			representativeFullName.error.set(
 				"El nombre del representante es requerido"
 			);
 		validateEmail(representativeEmail);
@@ -149,10 +149,10 @@ const useApplicantInscriptionValidation = ({ form }) => {
 			compromiseStudyCertificateFilename,
 			documentaryProgressFiveYearFilename,
 		} = form;
-		if (statementNotCriminalFilename.value.base64.length === 0)
-			statementNotCriminalFilename.error.set("El documento es requerido");
 		if (dniFilename.value.base64.length === 0)
 			dniFilename.error.set("El documento es requerido");
+		if (statementNotCriminalFilename.value.base64.length === 0)
+			statementNotCriminalFilename.error.set("El documento es requerido");
 		if (studyCertificateFilename.value.base64.length === 0)
 			studyCertificateFilename.error.set("El documento es requerido");
 		if (!studiesCompleted.value) {
@@ -164,6 +164,7 @@ const useApplicantInscriptionValidation = ({ form }) => {
 				documentaryProgressFiveYearFilename.error.set(
 					"El documento es requerido"
 				);
+			return;
 		}
 	};
 

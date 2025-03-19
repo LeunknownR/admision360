@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import ExamModel from "./ExamModel";
+import DownloadLink from "../../../../components/DownloadLink";
 import { AreaTitle } from "../styles";
 import { Flow } from "../../../../components/styles";
 
@@ -8,7 +8,11 @@ const AreaExamGroup = ({ area, models }) => {
 		<Flow direction="column">
 			<AreaTitle>{area}</AreaTitle>
 			{models.map(model => (
-				<ExamModel key={model.id} {...model}/>
+				<DownloadLink
+					key={model.id}
+					text={`Modelo ${model.model}`}
+					url={model.examUrl}
+				/>
 			))}
 		</Flow>
 	);

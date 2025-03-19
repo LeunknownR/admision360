@@ -4,7 +4,7 @@ import useAppContext from "../../context/useAppContext";
 import SelectField from "../../components/SelectField";
 import useExamFilters from "./hooks/useExamFilters";
 import EmptyView from "../../components/EmptyView";
-import QuestionBank from "./QuestionBank";
+import QuestionBankForm from "./QuestionBankForm";
 import useExams from "./hooks/useExams";
 import ExamModelGroup from "./ExamModelGroup";
 import AppRoutes from "../../router/AppRoutes";
@@ -37,7 +37,7 @@ const GenerateExamsView = () => {
 			) : (
 				<>
 					<EmptyView description="No hay exámenes disponibles para el periodo académico seleccionado" />
-					<QuestionBank
+					<QuestionBankForm
 						fetchExams={exams.fetchData}
 						academicPeriodId={examFilters.academicPeriodId.value}
 					/>

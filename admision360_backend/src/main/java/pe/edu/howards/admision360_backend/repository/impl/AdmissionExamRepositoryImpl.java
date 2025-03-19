@@ -2,7 +2,6 @@ package pe.edu.howards.admision360_backend.repository.impl;
 
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Optional;
 
@@ -140,8 +139,8 @@ public class AdmissionExamRepositoryImpl implements AdmissionExamRepository {
         }
     }
     private void saveExamQuestionRecords(int examId, List<AdmissionExam> exams) {
-        String examQuestionSql = "INSERT INTO exam_question (exam_id, number, question, photo, section, A, B, C, D, E) " +
-                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+        String examQuestionSql = "INSERT INTO exam_question (exam_id, number, question, photo, section, A, B, C, D, E, bank_question_number) " +
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
         try (var connection = databaseConnection.getConnection();
              var preparedStatement = connection.prepareStatement(examQuestionSql)) {
@@ -163,6 +162,7 @@ public class AdmissionExamRepositoryImpl implements AdmissionExamRepository {
                             preparedStatement.setString(8, examQuestion.getC());
                             preparedStatement.setString(9, examQuestion.getD());
                             preparedStatement.setString(10, examQuestion.getE());
+                            preparedStatement.setInt(11, examQuestion.getBankQuestionNumber());
 
                             preparedStatement.addBatch();
 

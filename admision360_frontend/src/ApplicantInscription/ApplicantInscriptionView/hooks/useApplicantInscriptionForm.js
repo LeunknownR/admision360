@@ -55,7 +55,7 @@ const useApplicantInscriptionForm = () => {
 		studiesDistrictId,
 		studiesAddress: getFieldHandler("studiesAddress"),
 		studiesInstitutionName: getFieldHandler("studiesInstitutionName"),
-		representativeFullname: getFieldHandler("representativeFullname"),
+		representativeFullName: getFieldHandler("representativeFullName"),
 		representativeFamilyRelationshipId: getFieldHandler(
 			"representativeFamilyRelationshipId"
 		),

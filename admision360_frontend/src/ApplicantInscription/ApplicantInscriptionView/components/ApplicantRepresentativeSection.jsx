@@ -11,7 +11,7 @@ const ApplicantRepresentativeSection = ({ form, familyRelationships }) => {
 				<TextField
 					label="Nombres y Apellidos"
 					placeholder="Ejm: Carlos Sanchez"
-					handler={form.representativeFullname}
+					handler={form.representativeFullName}
 					maxLength={100}
 					styles={{
 						maxw: "600px",

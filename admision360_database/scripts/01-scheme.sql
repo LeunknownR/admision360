@@ -162,5 +162,6 @@ CREATE TABLE exam_question(
     D TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
     E TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
     exam_id INT NOT NULL,
+    bank_question_number INT NOT NULL,
     FOREIGN KEY (exam_id) REFERENCES exam(id)
 );
