@@ -8,25 +8,34 @@ const ApplicantDocumentSection = ({ form }) => {
 		<ApplicantFieldSection title="DOCUMENTOS REQUERIDOS">
 			<Grid>
 				<FileField
-					label="Documento Nacional de Identidad: Frente y Reverso (Actualizado)"
+					label="Documento Nacional de Identidad: Frente y Reverso (en .pdf)"
 					handler={form.dniFilename}
+					accept=".pdf"
 				/>
 				<FileField
-					label="Certificado de estudios concluidos"
+					label="Certificado de estudios concluidos (en .pdf)"
 					handler={form.studyCertificateFilename}
+					accept=".pdf"
 				/>
 				<FileField
-					label="Compromiso de entregar certificado de estudios en caso ingresar (SOLO 5° año de secundaria)"
-					handler={form.compromiseStudyCertificateFilename}
-				/>
-				<FileField
-					label="Certificado de estudios o constancia de estar cursando 5° año educación de secundaria"
-					handler={form.documentaryProgressFiveYearFilename}
-				/>
-				<FileField
-					label="Declaración de no tener antecedentes penales"
+					label="Declaración de no tener antecedentes penales (en .pdf)"
 					handler={form.statementNotCriminalFilename}
+					accept=".pdf"
 				/>
+				{form.studiesCompleted.value && (
+					<>
+						<FileField
+							label="Compromiso de entregar certificado de estudios en caso ingresar (SOLO 5° año de secundaria) (en .pdf)"
+							handler={form.compromiseStudyCertificateFilename}
+							accept=".pdf"
+						/>
+						<FileField
+							label="Certificado de estudios o constancia de estar cursando 5° año educación de secundaria (en .pdf)"
+							handler={form.documentaryProgressFiveYearFilename}
+							accept=".pdf"
+						/>
+					</>
+				)}
 			</Grid>
 		</ApplicantFieldSection>
 	);

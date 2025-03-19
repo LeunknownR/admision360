@@ -1,0 +1,568 @@
+number,question,photo,section,A,B,C,D,E,answer
+1,¿Cuál de los siguientes no es un microorganismo patógeno?,,BIOLOGÍA,Virus,Bacterias,Hongos,Protozoarios,Glóbulos blancos,E
+2,¿Cuál es el principal factor que determina el clima en una región?,,BIOLOGÍA,La presencia de animales en el ecosistema.,"La altitud, la cercanía al mar y la temperatura.",La cantidad de minerales en el suelo.,La diversidad de microorganismos.,La composición de la biosfera.,B
+3,¿Cuál es la importancia de los microorganismos en la industria?,,BIOLOGÍA,Son la principal fuente de contaminación ambiental.,Permiten la producción de alimentos fermentados y medicamentos.,Son responsables de todas las enfermedades en los seres vivos.,Se utilizan exclusivamente en la producción de textiles.,Solo tienen importancia en la biología y no en la medicina.,B
+4,¿Qué tipo de adaptación es el camuflaje en los animales?,,BIOLOGÍA,Morfológica.,Conductual.,Fisiológica.,Genética.,Estructural,A
+5,¿Cuál de los siguientes animales pertenece al grupo de los equinodermos?,,BIOLOGÍA,Pulpo,Medusa,Estrella de mar,Anguila,Salamandra,C
+6,¿Cuál es la función principal de la fotosíntesis?,,BIOLOGÍA,Obtener energía a partir de materia orgánica.,Sintetizar glucosa utilizando luz solar,Producir energía en forma de ATP sin necesidad de oxígeno.,Transportar oxígeno en la sangre.,Descomponer moléculas de agua para liberar carbono.,B
+7,¿Cuál de los siguientes tejidos es exclusivo de las plantas?,,BIOLOGÍA,Epidérmico,Conjuntivo,Muscular,Xilema,Nervioso,D
+8,¿Qué estructura celular es la encargada de la síntesis de proteínas?,,BIOLOGÍA,Mitocondria,Lisosoma,Ribosoma,Cloroplasto,Núcleo,C
+9,¿Cuál es la molécula responsable de almacenar y transmitir la información genética?,,BIOLOGÍA,ARN mensajero,ADN,Proteína,Lípidos,Glucógeno,B
+10,¿Cuál de las siguientes no es una función del sistema circulatorio?,,BIOLOGÍA,Transporte de nutrientes,Regulación de la temperatura,Producción de glóbulos blancos,Eliminación de desechos metabólicos,Transporte de oxígeno y dióxido de carbono,C
+11,Un agricultor ha notado que sus cultivos de tomate están siendo atacados por un tipo de hongo que reduce la producción de frutos. Sabe que algunos microorganismos pueden ser beneficiosos y otros perjudiciales. ¿Qué estrategia biotecnológica podría emplear para combatir este problema sin recurrir a productos químicos agresivos?,,BIOLOGÍA,Aumentar la exposición de las plantas a la luz solar.,Aplicar bacterias antagonistas que inhiban el crecimiento del hongo,Reducir la cantidad de agua aplicada a los cultivos.,Introducir insectos depredadores en el campo.,Utilizar fertilizantes ricos en nitrógeno.,B
+12,"En un ecosistema marino, los científicos han observado que la población de tiburones ha disminuido drásticamente debido a la pesca excesiva. ¿Cuál podría ser una consecuencia ecológica de esta reducción?",,BIOLOGÍA,Aumento en la población de presas como peces pequeños y moluscos.,Disminución de la biodiversidad debido a la alteración de la cadena trófica.,Mayor proliferación de algas y cambios en la calidad del agua.,Desequilibrio en el ecosistema debido a la falta de un depredador tope.,Todas las anteriores.,E
+13,"En una investigación científica, se observó que un grupo de bacterias puede sobrevivir en un ambiente extremo con temperaturas superiores a 80°C. ¿Cuál de las siguientes adaptaciones es más probable que tengan estos microorganismos?",,BIOLOGÍA,Una membrana celular altamente permeable al agua.,Enzimas resistentes a la desnaturalización por calor.,Un metabolismo basado en la fotosíntesis.,Presencia de cilios largos para moverse en busca de zonas frías.,Capacidad de vivir exclusivamente en simbiosis con otros organismos.,B
+14,Un paciente es diagnosticado con una enfermedad metabólica que impide la descomposición de ciertas grasas en su organismo. ¿Qué orgánulo celular podría estar funcionando incorrectamente?,,BIOLOGÍA,Ribosomas,Mitocondrias,Lisosomas,Retículo endoplasmático rugoso.,Cloroplastos,C
+15,Un equipo de biólogos marinos investiga la disminución de los arrecifes de coral en una región tropical. Identifican que el aumento de la temperatura del océano y la acidificación del agua han afectado a estos ecosistemas. ¿Cuál de los siguientes es el principal causante de estos cambios ambientales?,,BIOLOGÍA,La actividad sísmica submarina.,La reducción de la salinidad del océano.,El aumento de los gases de efecto invernadero.,La migración de especies invasoras.,La disminución de la radiación solar.,C
+16,"Un científico está estudiando la evolución de una especie de insectos en un bosque. Descubre que, con el tiempo, los individuos de color marrón tienen mayor éxito reproductivo que los de color verde debido a que pueden camuflarse mejor en la corteza de los árboles. ¿Qué mecanismo evolutivo explica este fenómeno?",,BIOLOGÍA,Selección natural.,Deriva genética,Mutación inducida,Reproducción asexual,Flujo génico,A
+17,"En un experimento de laboratorio, un investigador cultiva células animales en un medio con baja concentración de oxígeno. Después de varias horas, observa que las células comienzan a producir ácido láctico. ¿Qué tipo de metabolismo están utilizando estas células para obtener energía?",,BIOLOGÍA,Fotosíntesis,Fermentación láctica,Respiración aeróbica,Quimiosíntesis,Ciclo de Krebs,B
+18,"En una isla remota, los científicos han encontrado una especie de ave que no puede volar, a pesar de que sus ancestros tenían alas funcionales. ¿Cuál de los siguientes conceptos explica mejor este cambio evolutivo?",,BIOLOGÍA,Adaptación a un ambiente sin depredadores.,Mutaciones aleatorias sin efecto en la supervivencia.,Hibridación con otras especies no voladoras.,Selección artificial por parte de los humanos.,Desarrollo de una nueva cadena alimentaria basada en la pesca.,A
+19,Una persona que ha sufrido una lesión en la médula espinal experimenta dificultades para mover sus extremidades y no puede sentir estímulos táctiles en algunas partes del cuerpo. ¿Qué función del sistema nervioso ha sido afectada?,,BIOLOGÍA,Coordinación endocrina,Producción de anticuerpos,Transmisión de impulsos eléctricos a través de las neuronas.,Regulación de la presión arterial.,Producción de hormonas.,C
+20,Un agricultor quiere mejorar la fertilidad de su suelo sin usar fertilizantes químicos. Decide utilizar bacterias del género Rhizobium. ¿Cómo ayudan estas bacterias a mejorar la calidad del suelo?,,BIOLOGÍA,Aumentan la capacidad del suelo para retener agua.,"Fijan nitrógeno atmosférico, convirtiéndolo en compuestos útiles para las plantas.",Descomponen materia orgánica en humus.,Eliminan los metales pesados del suelo,Producen fitohormonas que aceleran el crecimiento vegetal.,B
+21,"En un ecosistema, los productores son organismos esenciales porque:",,BIOLOGÍA,Mantienen la biodiversidad al consumir depredadores.,Transforman la materia inorgánica en materia orgánica.,Son los principales reguladores del clima.,Se alimentan de consumidores secundarios.,Producen oxígeno a través de la respiración celular.,A
+22,Un niño nace con una enfermedad genética que afecta la producción de una enzima digestiva específica. Esto indica que la mutación ocurrió en:,,BIOLOGÍA,El retículo endoplasmático.,Los ribosomas,El ADN del núcleo celular.,La membrana plasmática.,Los lisosomas.,C
+23,¿Cuál de los siguientes es un ejemplo de simbiosis mutualista?,,BIOLOGÍA,Un parásito que se alimenta de su huésped.,Un león que caza una gacela.,Las bacterias intestinales que ayudan en la digestión humana.,Un hongo que infecta a una planta y la debilita.,Un árbol que compite por luz con otro árbol.,C
+24,¿Cuál de los siguientes enunciados es correcto sobre el ciclo del agua?,,BIOLOGÍA,La condensación es el proceso por el cual el agua pasa de gas a líquido.,La transpiración ocurre cuando el agua se congela en los polos.,La evaporación ocurre exclusivamente en los océanos.,El agua se infiltra en el suelo únicamente en climas fríos.,La precipitación solo ocurre cuando la temperatura es inferior a 0°C.,A
+25,¿Cuál de los siguientes es un factor biótico en un ecosistema?,,BIOLOGÍA,La luz solar.,La temperatura.,La humedad del suelo.,La población de hongos.,La composición del aire.,D
+26,"En un bosque tropical, la tala masiva de árboles provocó la extinción local de varias especies de aves. ¿Cómo se denomina este fenómeno?",,BIOLOGÍA,Migración estacional.,Sucesión ecológica.,Pérdida de biodiversidad.,Especiación alopátrica.,Aumento de la cadena trófica.,C
+27,¿Qué ocurre con la energía a medida que fluye a través de los niveles tróficos de un ecosistema?,,BIOLOGÍA,Se recicla completamente y vuelve al productor.,Se pierde en forma de calor en cada nivel.,Se multiplica a medida que se asciende en la cadena trófica.,Se transfiere sin ninguna pérdida entre organismos.,Se conserva en la misma cantidad en cada nivel.,B
+28,¿Cuál es la función principal del sistema linfático en el cuerpo humano?,,BIOLOGÍA,Controlar la digestión de los alimentos,Transportar oxígeno en la sangre.,Producir hormonas para regular el metabolismo.,Defender al organismo contra infecciones,Controlar los impulsos nerviosos.,D
+29,Un agricultor nota que algunas de sus plantas han desarrollado resistencia a un herbicida que utilizaba regularmente. Este fenómeno se debe a:,,BIOLOGÍA,Adaptación individual de cada planta.,Selección natural de variantes resistentes,Mutaciones inducidas por el herbicida.,Eliminación de nutrientes del suelo.,Alteraciones en la fotosíntesis.,B
+30,"En un ecosistema acuático, las algas microscópicas realizan fotosíntesis y sirven de alimento para pequeños crustáceos, los cuales son consumidos por peces más grandes. En este caso, los crustáceos cumplen el rol de:",,BIOLOGÍA,Productores primarios.,Consumidores primarios.,Consumidores secundarios.,Descomponedores.,Organismos autótrofos.,B
+31,"Si un gas ideal se expande a temperatura constante, según la ecuación de estado, ¿qué ocurre con la presión?",,QUÍMICA,Aumenta,Disminuye,Permanece constante,Disminuye hasta cero,Se duplica,B
+32,¿Cuál es el número cuántico que determina la forma del orbital de un electrón en un átomo?,,QUÍMICA,Número cuántico principal (n),Número cuántico azimutal (l),Número cuántico magnético (m),Número cuántico de espín (s),Número de oxidación,B
+33,"Si un elemento químico tiene una configuración electrónica que termina en 3d⁶ 4s², ¿a qué elemento pertenece?",,QUÍMICA,Vanadio (V),Hierro (Fe),Manganeso (Mn),Cromo (Cr),Níquel (Ni),B
+34,¿Cuál de las siguientes sustancias tiene enlaces covalentes polares?,,QUÍMICA,NaCl,O₂,H₂O,Cu,Fe₂O₃,C
+35,¿Qué compuesto presenta hibridación sp³ en todos sus átomos de carbono?,,QUÍMICA,Eteno,Benceno,Metano,Etino,Grafito,C
+36,¿Qué tipo de reacción química ocurre cuando el etanol se oxida a ácido acético?,,QUÍMICA,Sustitución,Adición,Eliminación,Oxidación-reducción,Neutralización,D
+37,"Si se duplica la concentración de un reactivo en una reacción de primer orden, ¿qué sucede con la velocidad de reacción?",,QUÍMICA,Se mantiene constante,Se duplica,Se cuadruplica,Se reduce a la mitad,Aumenta exponencialmente,B
+38,¿Cuál es la principal diferencia entre un enlace iónico y un enlace covalente?,,QUÍMICA,El enlace iónico se da entre átomos de alta electronegatividad,El enlace covalente implica la transferencia completa de electrones,El enlace iónico implica la transferencia de electrones y el covalente el compartimiento de electrones,El enlace covalente ocurre solo en metales,El enlace iónico ocurre solo entre elementos del mismo grupo de la tabla periódica,C
+39,¿Cuál de las siguientes sustancias es un ácido fuerte según la teoría de Arrhenius?,,QUÍMICA,H₂CO₃,HNO₃,CH₃COOH,H₂O,NH₃,B
+40,¿Cuál de los siguientes factores NO afecta la velocidad de una reacción química?,,QUÍMICA,Temperatura,Concentración de reactivos,Presencia de catalizadores,Energía de activación,Masa molecular del producto,E
+41,"Un gas ocupa un volumen de 10 L a 300 K y 1 atm de presión. Si la temperatura aumenta a 600 K a presión constante, 
+¿cuál será el nuevo volumen?",,QUÍMICA,5 L,10 L,20 L,30 L,15 L,C
+42,¿Cuál es el reactivo limitante si se combinan 4 moles de H₂ con 2 moles de O₂ para formar agua?,,QUÍMICA,H₂,O₂,H₂O,Ambos en la misma proporción,No hay reactivo limitante,A
+43,"Si un átomo tiene 17 protones y 18 electrones, se trata de:",,QUÍMICA,Un ion negativo con carga -1,Un ion positivo con carga +1,Un átomo neutro,Un isótopo,Un catión con carga +2,A
+44,¿Qué ocurre en una reacción endotérmica?,,QUÍMICA,Se libera calor al medio,Se absorbe calor del medio,No hay intercambio de energía,Aumenta la presión de los reactivos,Se libera gas en el proceso,B
+45,"En la producción industrial del amoníaco por el proceso de Haber, ¿qué gas se utiliza como fuente de hidrógeno?",,QUÍMICA,Oxígeno,Metano,Nitrógeno,Argón,Helio,B
+46,"¿Qué principio de la mecánica cuántica establece que no es posible conocer simultáneamente la posición y 
+la velocidad de un electrón?",,QUÍMICA,Principio de Aufbau,Principio de Pauli,Principio de exclusión de Hund,Principio de incertidumbre de Heisenberg,Regla del octeto,D
+47,¿Cuál de las siguientes sustancias tiene el mayor punto de ebullición?,,QUÍMICA,Metano (CH₄),Agua (H₂O),Oxígeno (O₂),Nitrógeno (N₂),Dióxido de carbono (CO₂),B
+48,¿Cuál es el producto principal de la combustión completa del etanol (C₂H₅OH)?,,QUÍMICA,Carbono y agua,Monóxido de carbono y agua,Dióxido de carbono y agua,Hidrógeno y carbono,Acetaldehído y oxígeno,C
+49,¿Cuál de los siguientes óxidos es anfótero?,,QUÍMICA,SO₂,CO₂,Na₂O,Al₂O₃,MgO,D
+50,"Si el radio atómico del sodio es mayor que el del cloro, esto se debe a que:",,QUÍMICA,El sodio tiene más protones que el cloro,El sodio tiene menos electrones que el cloro,La carga nuclear efectiva es mayor en el cloro,El cloro tiene más niveles de energía que el sodio,Los electrones del sodio están más cerca del núcleo,C
+51,¿Cuál de los siguientes compuestos tiene un enlace metálico?,,QUÍMICA,HCl,Fe,H₂O,CH₄,NaCl,B
+52,¿Cuál es el reactivo limitante en la reacción 2H₂ + O₂ → 2H₂O si se combinan 5 moles de H₂ y 2 moles de O₂?,,QUÍMICA,H₂,O₂,H₂O,Ambos en la misma proporción,No hay reactivo limitante,A
+53,"En un gas ideal, si el volumen se reduce a la mitad a temperatura constante, la presión:",,QUÍMICA,Se reduce a la mitad,Se duplica,Se mantiene constante,Aumenta cuatro veces,Disminuye a un cuarto,B
+54,"Se tiene una solución de ácido acético 0.1 M. Si la constante de disociación (Ka) es 1.75 × 10⁻⁵, 
+¿cuál es el pH aproximado de la solución?",,QUÍMICA,1,2.9,3.5,4.8,6,C
+55,"Un gas ocupa un volumen de 8 L a 2 atm y 400 K. ¿Cuál será su volumen si la presión se reduce a 1 atm
+ y la temperatura baja a 200 K?",,QUÍMICA,2 L,4 L,6 L,8 L,16 L,B
+56,"Se necesita preparar 500 mL de una solución de HCl 0.5 M a partir de una solución concentrada de 2 M. 
+¿Cuántos mL de la solución concentrada deben diluirse?",,QUÍMICA,50 mL,100 mL,125 mL,250 mL,500 mL,B
+57,"¿Cuál es el volumen de oxígeno (O₂) requerido para reaccionar completamente con 10 L de gas hidrógeno (H₂) 
+en la formación de agua, bajo condiciones estándar?",,QUÍMICA,5 L,10 L,15 L,20 L,30 L,A
+58,¿Qué producto se obtiene al oxidar un alcohol secundario?,,QUÍMICA,Un aldehído,Un ácido carboxílico,Un alqueno,Una cetona,Un éter,D
+59,¿Cuál de los siguientes pares de sustancias puede formar una disolución buffer?,,QUÍMICA,HCl y NaCl,CH₃COOH y CH₃COONa,H₂SO₄ y H₂O,NaOH y NaCl,NH₃ y NaOH,E
+60,¿Cuál es el coeficiente estequiométrico del oxígeno en la reacción balanceada de combustión completa del etano (C₂H₆)?,,QUÍMICA,1,2,3,5,7,D
+61,Un automóvil parte del reposo y se mueve con una aceleración constante de 2 m/s². ¿Qué velocidad tendrá después de 5 segundos?,,FÍSICA,5 m/s,8 m/s,10 m/s,12 m/s,15 m/s,C
+62,"En un sistema oscilante, ¿cuándo se alcanza la máxima energía cinética?",,FÍSICA,En el punto de equilibrio,En los extremos del movimiento,Cuando la velocidad es cero,Cuando la aceleración es máxima,Cuando la frecuencia angular es máxima,A
+63,"En el experimento de Young, el patrón de interferencia observado se debe a:",,FÍSICA,Reflexión de la luz,Polarización de la luz,Difracción y superposición de onda,Absorción de la luz por las rendijas,Cambio de frecuencia de la luz,C
+64,¿Cuál de las siguientes leyes describe la relación entre la intensidad del campo eléctrico y la carga encerrada en una superficie cerrada?,,FÍSICA,Ley de Faraday,Ley de Lenz,Ley de Coulomb,Ley de Gauss,Ley de Biot-Savart,D
+65,"Según la primera ley de la termodinámica, la variación de energía interna de un sistema es igual a:",,FÍSICA,El calor absorbido menos el trabajo realizado,La presión por el volumen,La temperatura por la variación de entropía,La fuerza aplicada por el desplazamiento,La energía térmica transferida menos la energía potencial,A
+66,La unidad de medida del flujo magnético en el SI es:,,FÍSICA,Tesla,Weber,Henry,Coulomb,Faradio,B
+67,"Según el efecto fotoeléctrico, los electrones se emiten de una superficie metálica cuando:",,FÍSICA,Se aumenta la intensidad de la luz incidente,Se disminuye la frecuencia de la luz,La energía del fotón es mayor que la función de trabajo del metal,La luz tiene mayor longitud de onda,Se aumenta la presión sobre el metal,C
+68,Un objeto describe un movimiento circular uniforme. ¿Cuál de las siguientes afirmaciones es correcta?,,FÍSICA,"La velocidad lineal es constante, pero la velocidad angular varía.",La aceleración centrípeta es cero,La velocidad angular es constante y hay aceleración centrípeta.,La fuerza centrípeta es perpendicular a la aceleración centrípeta.,La energía cinética del objeto es constante solo si la velocidad angular varía.,C
+69,¿Qué tipo de energía posee un resorte comprimido sin movimiento?,,FÍSICA,Energía cinética,Energía térmica,Energía potencial gravitatoria,Energía potencial elástica,Energía radiante,D
+70,¿Cuál de las siguientes expresiones representa correctamente la energía interna de un gas ideal?,,FÍSICA,U=nRT,U=2/1​mv,U=3/2​n RT,U=PV,U=mgh,C
+71,¿Qué fenómeno explica la separación de la luz blanca en sus diferentes colores al pasar por un prisma?,,FÍSICA,Reflexión,Refracción,Dispersión,Difracción,Polarización,C
+72,¿Cuál de las siguientes leyes explica la inducción electromagnética?,,FÍSICA,Ley de Coulomb,Ley de Faraday,Ley de Ampère,Ley de Gauss,Ley de Newton,B
+73,¿Cuál de los siguientes procesos térmicos ocurre a presión constante?,,FÍSICA,Isotérmico,Adiabático,Isocórico,Isobárico,Reversible,D
+74,"En un ciclo de Carnot ideal, la eficiencia solo depende de:",,FÍSICA,La presión inicial y final del gas,Las temperaturas de las fuentes caliente y fría,La cantidad de calor absorbido,El tipo de gas usado,La velocidad de expansión del gas,B
+75,"En un circuito en serie con una resistencia de 10 Ω y una corriente de 2 A, ¿cuál es la caída de voltaje en la resistencia?",,FÍSICA,5 V,10 V,20 V,40 V,50 V,C
+76,¿Qué sucede con el flujo magnético cuando el número de líneas de campo magnético que atraviesan una superficie disminuye?,,FÍSICA,Aumenta la intensidad del campo,Disminuye el flujo magnético,Aumenta la energía cinética de las partículas,La fuerza electromotriz inducida se anula,La polaridad del campo se invierte,B
+77,¿Qué postulado de Bohr explica por qué los electrones no colapsan en el núcleo atómico?,,FÍSICA,Los electrones tienen órbitas permitidas de energía cuantizada,La carga del electrón es positiva,La energía del electrón es infinita,Los electrones están en movimiento caótico,El núcleo repele a los electrones,A
+78,¿Qué partícula tiene la menor masa?,,FÍSICA,Protón,Neutrón,Electrón,Positrón,Neutrino,C
+79,¿Qué ecuación describe la longitud de onda asociada a una partícula según la mecánica cuántica?,,FÍSICA,E=mc,λ=h/mv,E=hf,p=mv,F=qE,B
+80,"En el espectro electromagnético, los rayos X tienen:",,FÍSICA,Mayor longitud de onda que la luz visible,Menor energía que los infrarrojos,Mayor frecuencia que la luz visible,Menor frecuencia que los microondas,Mayor longitud de onda que los rayos gamma,C
+81,¿Qué principio de la mecánica cuántica establece que es imposible conocer simultáneamente la posición y el momento de una partícula con precisión absoluta?,,FÍSICA,Principio de superposición,Principio de exclusión de Pauli,Principio de incertidumbre de Heisenberg,Postulado de Einstein,Teorema de Gauss,C
+82,¿Cuál de los siguientes experimentos demostró la dualidad onda-partícula de los electrones?,,FÍSICA,El experimento de la gota de aceite de Millikan,El experimento de la doble rendija de Young,El experimento del espectro de hidrógeno de Balmer,El experimento de Cavendish,El experimento de Michelson-Morley,B
+83,¿Qué sucede cuando un electrón en un átomo pasa de un nivel de energía alto a uno más bajo?,,FÍSICA,Absorbe un fotón,Emite un fotón,Aumenta su velocidad,Su carga cambia,Su masa se duplica,B
+84,¿Cuál de los siguientes fenómenos confirma que la luz se comporta como una partícula?,,FÍSICA,Interferencia,Difracción,Reflexión,Efecto fotoeléctrico,Refracción,D
+85,Un satélite en órbita alrededor de la Tierra se mantiene en movimiento debido a:,,FÍSICA,La ausencia de gravedad en el espacio,La fuerza centrífuga generada por su movimiento,La gravedad terrestre que actúa como fuerza centrípeta,La resistencia del aire que lo mantiene en órbita,Su velocidad es suficientemente baja para evitar la caída,C
+86,"Si la fuerza neta sobre un cuerpo es cero, entonces el cuerpo:",,FÍSICA,Siempre está en reposo,Siempre se mueve con aceleración constante,Puede estar en reposo o en movimiento con velocidad constante,Se mueve en una trayectoria circular,Su energía cinética disminuye,C
+87,Un conductor rectilíneo infinito con corriente genera un campo magnético cuya forma es:,,FÍSICA,Rectilínea en la misma dirección de la corriente,Radial saliendo del conductor,Circular alrededor del conductor,Espiral con dirección variable,Nula en todos los puntos del espacio,C
+88,"En la ecuación de Maxwell-Faraday, el campo eléctrico inducido por un campo magnético variable genera:",,FÍSICA,Una corriente eléctrica,Un campo magnético adicional,Un campo eléctrico no conservativo,Un potencial gravitacional,Una carga eléctrica neta,C
+89,¿Qué fenómeno evidencia la naturaleza cuántica de la energía de los electrones en un átomo?,,FÍSICA,El espectro continuo de emisión,La dispersión de Rayleigh,Los espectros de líneas de emisión y absorción,El efecto Doppler en la luz,La refracción en prismas,C
+90,"Según la teoría de la relatividad de Einstein, ¿qué sucede con el tiempo cuando un objeto se mueve a velocidades cercanas a la de la luz respecto a un observador en reposo?",,FÍSICA,Se acelera,Permanece invariable,Se desacelera desde la perspectiva del objeto,Se dilata desde la perspectiva del observador en reposo,Se invierte en el sistema del objeto,D
+91,¿Qué filósofo es considerado el padre de la metafísica?,,FILOSOFÍA,Sócrates,Platón,Aristóteles,Descartes,Heráclito,C
+92,¿Cuál de las siguientes doctrinas filosóficas niega la existencia del mundo exterior?,,FILOSOFÍA,Empirismo,Materialismo,Idealismo subjetivo,Racionalismo,Pragmatismo,C
+93,"Según Platón, ¿cuál es la realidad última y eterna?",,FILOSOFÍA,El cosmos,La materia,Los sentidos,Las ideas,El devenir,D
+94,¿Qué corriente filosófica sostiene que el conocimiento proviene exclusivamente de la experiencia?,,FILOSOFÍA,Idealismo,Racionalismo,Positivismo,Existencialismo,Empirismo,E
+95,"¿Quién afirmó la famosa frase 'Pienso, luego existo'?",,FILOSOFÍA,Hegel,Descartes,Kant,Nietzsche,Locke,B
+96,¿Cuál es el concepto central de la filosofía de Friedrich Nietzsche?,,FILOSOFÍA,El deber moral,La dialéctica,El escepticismo,La voluntad de poder,La teoría de las ideas,D
+97,¿Qué filósofo medieval intentó demostrar la existencia de Dios mediante el argumento ontológico?,,FILOSOFÍA,Guillermo de Ockham,San Agustín,Santo Tomás de Aquino,San Anselmo,Avicena,A
+98,¿Qué filósofo fue el creador del concepto de 'contrato social'?,,FILOSOFÍA,Aristóteles,John Locke,Jean-Jacques Rousseau,Karl Marx,Maquiavelo,C
+99,¿Qué filósofo sostuvo que la historia de la humanidad es la historia de la lucha de clases?,,FILOSOFÍA,Nietzsche,Hegel,Marx,Comte,Foucault,C
+100,"Según Kant, ¿qué es el imperativo categórico?",,FILOSOFÍA,Una regla basada en la utilidad,Un mandato condicional,Un principio universal y moral,Una ley de la naturaleza,Un postulado metafísico,C
+101,¿Cuál de las siguientes afirmaciones define mejor el existencialismo?,,FILOSOFÍA,La existencia precede a la esencia,La realidad es una ilusión,El conocimiento proviene de la experiencia,La moral depende de Dios,La historia es cíclica,A
+102,¿Qué filósofo postuló el 'mito de la caverna' como una metáfora del conocimiento?,,FILOSOFÍA,Aristóteles,Descartes,Epicuro,Hume,Platón,E
+103,¿Qué filósofo desarrolló el concepto de la 'dialéctica hegeliana'?,,FILOSOFÍA,Karl Marx,Augusto Comte,Georg Wilhelm Friedrich Hegel,John Stuart Mill,David Hume,B
+104,¿Quién es considerado el padre del empirismo moderno?,,FILOSOFÍA,Immanuel Kant,René Descartes,David Hume,John Locke,Francis Bacon,D
+105,¿Qué filósofo afirmaba que el 'superhombre' debía superar la moral tradicional?,,FILOSOFÍA,Sartre,Hegel,Nietzsche,Marx,Kierkegaard,C
+106,¿Quién es el fundador del materialismo histórico?,,FILOSOFÍA,Hegel,Marx,Kant,Comte,Foucault,B
+107,¿Qué corriente filosófica considera que el ser humano está condenado a ser libre?,,FILOSOFÍA,Existencialismo,Empirismo,Racionalismo,Materialismo,Positivismo,A
+108,¿Qué filósofo medieval desarrolló las 'Cinco Vías' para demostrar la existencia de Dios?,,FILOSOFÍA,Santo Tomás de Aquino,San Anselmo,Santo Tomás de Aquino,Descartes,Nietzsche,A
+109,¿Cuál es la principal obra de Platón donde expone su teoría de las Ideas?,,FILOSOFÍA,Fedón,República,Timeo,Gorgias,Leyes,B
+110,¿Qué filósofo afirmó 'El hombre es la medida de todas las cosas'?,,FILOSOFÍA,Platón,Aristóteles,Protágoras,Tales de Mileto,Sócrates,C
+111,¿Qué filósofo griego distinguió entre sustancia y accidente?,,FILOSOFÍA,Heráclito,Parménides,Aristóteles,Empédocles,Pitágoras,C
+112,¿Qué corriente filosófica sostiene que la verdad es relativa y depende del contexto cultural?,,FILOSOFÍA,Escepticismo,Dogmatismo,Positivismo,Pragmatismo,Relativismo,E
+113,¿Cuál de las siguientes es una obra de Friedrich Nietzsche?,,FILOSOFÍA,Más allá del bien y del mal,Así habló Zaratustra,El ser y la nada,Crítica de la razón pura,Ser y tiempo,A
+114,¿Qué filósofo promovió el método socrático de enseñanza?,,FILOSOFÍA,Aristóteles,Epicuro,Sócrates,Demócrito,Hume,C
+115,¿Cuál de los siguientes conceptos está más relacionado con la filosofía de Karl Marx?,,FILOSOFÍA,Superhombre,Lógica trascendental,Metafísica de las costumbres,Deber moral,Lucha de clases,E
+116,¿Qué filósofo francés es considerado el padre del existencialismo moderno?,,FILOSOFÍA,Sartre,Heidegger,Kierkegaard,Camus,Descartes,A
+117,"¿Quién escribió 'El Príncipe', obra fundamental del pensamiento político?",,FILOSOFÍA,Aristóteles,Locke,Maquiavelo,Hobbes,Rousseau,C
+118,¿Qué corriente filosófica promueve la búsqueda del placer como principio fundamental?,,FILOSOFÍA,Estoicismo,Hedonismo,Idealismo,Utilitarismo,Materialismo,B
+119,¿Qué filósofo utilizó el concepto de 'ser-para-la-muerte' en su obra?,,FILOSOFÍA,Nietzsche,Sartre,Heidegger,Husserl,Foucault,C
+120,¿Cuál de los siguientes filósofos defendió el 'principio de falsabilidad' en la ciencia?,,FILOSOFÍA,Descartes,Hume,Popper,Kuhn,Wittgenstein,C
+121,¿Cuál de los siguientes enunciados describe mejor la diferencia entre macroeconomía y microeconomía?,,ECONOMÍA,"La microeconomía estudia el desempleo y la inflación, mientras 
+que la macroeconomía analiza mercados específicos.","La macroeconomía se enfoca en la economía de un país en su conjunto, 
+mientras que la microeconomía estudia decisiones individuales y de empresas.","La microeconomía analiza el crecimiento del PIB, mientras que la macroeconomía se centra en 
+los costos de producción.","La macroeconomía solo estudia los mercados financieros, mientras 
+que la microeconomía se enfoca en el comercio internacional.","Ambas estudian lo mismo, pero con diferentes enfoques temporales.",B
+122,"Si un país incrementa la oferta monetaria de forma excesiva sin un respaldo productivo adecuado, ¿qué fenómeno 
+económico es más probable que ocurra?",,ECONOMÍA,Deflación,Reducción del PIB,Recesión,Aumento del desempleo,Inflación,E
+123,¿Cuál de las siguientes NO es una función del Banco Central de un país?,,ECONOMÍA,Regular la oferta monetaria,Controlar la inflación,Administrar el presupuesto nacional,Supervisar el sistema financiero,Emitir la moneda nacional,C
+124,"En un mercado con estructura oligopólica, es común observar que:",mercado_oligopolico.jpg,ECONOMÍA,Muchas empresas compiten con productos homogéneos.,Los precios son determinados libremente sin influencia de otras empresas.,Unas pocas empresas dominan el mercado y pueden influir en los precios.,Existe libre entrada y salida de empresas sin barreras.,Hay un solo vendedor que controla toda la oferta.,C
+125,Un país con una balanza comercial superavitaria significa que:,,ECONOMÍA,Sus importaciones son mayores que sus exportaciones.,Sus exportaciones son mayores que sus importaciones.,Tiene un déficit en su cuenta corriente.,Ha reducido su deuda externa.,Su tipo de cambio está cayendo.,B
+126,El Producto Bruto Interno (PBI) real se diferencia del PBI nominal en que:,,ECONOMÍA,"El PBI real está ajustado por la inflación, mientras que el 
+nominal no","El PBI nominal mide la producción total y el real solo la producción 
+manufacturera.","El PBI nominal se usa para medir crecimiento, mientras que el real mide inflación.",Ambos miden exactamente lo mismo sin distinción alguna.,Solo el PBI nominal se expresa en dólares.,A
+127,"Si la tasa de interés en una economía aumenta significativamente, es probable que:",,ECONOMÍA,El consumo y la inversión disminuyan.,El consumo y la inversión aumenten.,La inflación aumente drásticamente.,El gobierno reduzca su gasto público.,El desempleo disminuya automáticamente.,A
+128,"Observa el gráfico del PBI de un país. ¿Cuál de los siguientes factores podría haber contribuido a una caída en el PBI 
+en cierto período?",,ECONOMÍA,Aumento de la inversión extranjera.,Expansión del gasto público.,Disminución de la tasa de interés.,Un ciclo de recesión económica global.,Aumento del consumo interno.,D
+129,"En una economía con desempleo estructural alto, la mejor política para reducirlo sería:",evolucion_pib.jpg,ECONOMÍA,Reducir los impuestos a las empresas para incentivar la inversión.,"Aplicar programas de capacitación laboral para adaptar la fuerza de trabajo 
+a las necesidades del mercado.",Incrementar la oferta monetaria para generar inflación.,Fomentar el consumo reduciendo la tasa de interés.,Aumentar el gasto público en subsidios directos.,B
+130,Observa el gráfico sobre la tasa de desempleo. Un aumento significativo en esta tasa puede ser causado por:,tasa_desempleo.jpg,ECONOMÍA,Una caída en la demanda agregada,Un incremento en la inversión privada.,Una disminución de los impuestos.,Una reducción en la oferta de dinero.,Un aumento de las exportaciones.,A
+131,"En un contexto de inflación descontrolada, el Banco Central podría:",,ECONOMÍA,Reducir la tasa de interés para incentivar el crédito.,Aumentar la oferta monetaria para generar más crecimiento.,Subir la tasa de interés para desacelerar el consumo y la inversión,Disminuir la tasa de encaje bancario para facilitar préstamos.,Emitir más dinero para compensar la inflación.,C
+132,"Si el tipo de cambio de un país se deprecia frente al dólar, ¿qué impacto directo tendrá en su economía?",,ECONOMÍA,"Las exportaciones serán más caras para los compradores 
+extranjeros.",Las importaciones serán más baratas para los consumidores locales.,No tendrá impacto significativo en la balanza comercial.,Los bienes importados serán más costosos.,Se reducirá la inflación.,D
+133,"En la tabla de impuestos, ¿cuál de los siguientes impuestos es considerado indirecto?",tabla_impuestos.jpg,ECONOMÍA,Impuesto a la Renta,IGV,Impuesto Predial,Impuesto sobre la Renta Empresarial,Impuesto a la Herencia,B
+134,"Si un país sufre una crisis económica con alto desempleo y bajo crecimiento, una política fiscal expansiva podría incluir:",,ECONOMÍA,Aumento del gasto público en infraestructura.,Aumento de la tasa de interés.,Disminución del déficit fiscal a través de recortes de gasto.,Reducción de la oferta monetaria.,Restricciones al crédito bancario.,A
+135,Observa la tabla sobre los tipos de impuestos. ¿Cuál de las siguientes afirmaciones es correcta?,tabla_impuestos.jpg,ECONOMÍA,El impuesto a la renta es un impuesto indirecto.,El IGV grava directamente el ingreso de las personas.,Los impuestos directos afectan principalmente a los consumidores en cada transacción.,"Los impuestos indirectos afectan a los consumidores pero no 
+directamente a sus ingresos.",Los impuestos prediales son un tipo de impuesto indirecto.,D
+136,"En una economía de mercado, la asignación de recursos está determinada principalmente por:",,ECONOMÍA,El gobierno central.,La planificación estatal.,La cantidad de dinero en circulación.,El Banco Central.,Las decisiones de los consumidores y empresas a través de la oferta y la demanda.,E
+137,"Si el coeficiente de Gini de un país aumenta, esto indica que:",,ECONOMÍA,La inflación ha disminuido.,La desigualdad en la distribución del ingreso ha aumentado.,El desempleo ha caído.,La economía ha crecido de manera equitativa.,Ha habido una redistribución de riqueza a favor de los más pobres.,B
+138,"En una economía con una tasa de inflación del 10% anual, ¿qué efecto tendría un aumento significativo en la tasa de 
+interés del Banco Central?",,ECONOMÍA,Aumentaría el consumo y la inversión.,Fomentaría el endeudamiento de empresas y familias.,"Desincentivaría el consumo y la inversión, reduciendo la inflación.",Provocaría una disminución en el desempleo.,Haría que el tipo de cambio se depreciara.,C
+139,"En la siguiente gráfica de oferta y demanda, ¿qué sucederá si el gobierno fija un precio máximo por debajo del precio 
+de equilibrio?",grafico_precio_maximo.jpg,ECONOMÍA,Se generará un exceso de oferta.,Se producirá escasez del bien.,El mercado alcanzará automáticamente un nuevo equilibrio.,No habrá ningún impacto en el mercado.,Aumentará la producción del bien.,B
+140,El efecto multiplicador en economía se refiere a:,,ECONOMÍA,"El impacto de una variación del gasto en la producción total de 
+la economía.",La relación entre inflación y desempleo.,La elasticidad precio de la demanda.,La variación de la oferta monetaria en el tipo de cambio.,La diferencia entre el PIB nominal y el PIB real.,A
+141,¿Cuál de los siguientes factores NO afecta directamente la demanda agregada?,,ECONOMÍA,El consumo privado.,La inversión empresarial.,El gasto público.,La productividad de los trabajadores.,Las exportaciones netas.,D
+142,"Si un país sufre una crisis económica y el gobierno decide aumentar el gasto público sin incrementar los impuestos, 
+esto provocará:",,ECONOMÍA,Un superávit fiscal.,Una reducción en la deuda pública.,Un déficit fiscal.,Un aumento en la tasa de interés.,Una reducción del nivel de precios.,C
+143,"Observa la gráfica sobre la relación entre inflación y tasa de desempleo. Según la curva de Phillips, si el desempleo 
+disminuye, es probable que:",grafico_curva_phillips.jpg,ECONOMÍA,La inflación se reduzca.,La inflación aumente.,La economía entre en recesión.,La tasa de interés caiga drásticamente.,No haya cambios en los precios.,B
+144,"Si el tipo de cambio de un país se aprecia respecto al dólar, ¿qué efecto tendrá esto en la economía nacional?",,ECONOMÍA,Los productos importados serán más baratos.,Los productos nacionales serán más competitivos en el exterior.,El turismo extranjero hacia el país aumentará.,La inflación se incrementará.,Habrá un aumento del déficit comercial.,A
+145,"Observa el gráfico de evolución del PIB per cápita. ¿Cuál de los siguientes factores podría haber contribuido a su 
+disminución en un periodo determinado?",grafico_pib_per_capita.jpg,ECONOMÍA,Disminución de la productividad laboral.,Aumento en la inversión privada.,Aumento del gasto público en infraestructura.,Crecimiento del empleo formal.,Expansión del comercio internacional.,A
+146,"En el modelo IS-LM, un aumento en el gasto público sin cambios en la política monetaria tiende a:",,ECONOMÍA,Reducir la tasa de interés y aumentar la inversión.,Aumentar la tasa de interés y reducir la inversión.,No afectar el nivel de producción.,Disminuir la demanda agregada.,Generar una apreciación de la moneda local.,B
+147,"Si un gobierno decide aumentar los impuestos a los consumidores sin incrementar el gasto público, es probable que:",,ECONOMÍA,La inflación aumente.,La balanza comercial se vuelva superavitaria.,El PIB crezca rápidamente.,El desempleo se reduzca automáticamente.,La demanda agregada disminuya.,E
+148,"Observa la tabla de tasas de impuestos en diferentes países. Según los datos, un país con impuestos altos a la renta y 
+bajos impuestos al consumo tendrá:",tabla_tasas_impuestos.jpg,ECONOMÍA,Mayor recaudación en sectores de bajos ingresos.,Mayor carga fiscal sobre los consumidores.,Un sistema tributario progresivo.,Menor ingreso fiscal total.,Una mayor evasión fiscal.,C
+149,"En un país con inflación moderada y crecimiento estable, la mejor política monetaria para mantener el equilibrio 
+económico es:",,ECONOMÍA,Aumentar drásticamente la oferta monetaria.,Reducir la tasa de interés para estimular el crédito.,Mantener una política monetaria neutral sin grandes cambios.,Elevar los impuestos para reducir la liquidez.,Expandir el gasto público agresivamente.,C
+150,"Observa la tabla de componentes del déficit fiscal. Según los datos, ¿cuál de los siguientes factores ha tenido el 
+mayor impacto en el déficit?",tabla_deficit_fiscal.jpg,ECONOMÍA,Reducción de ingresos fiscales.,Disminución del gasto público.,Aumento del superávit comercial.,Crecimiento del PIB nominal.,Apreciación del tipo de cambio.,A
+151,¿Cuál es la principal cordillera del Perú?,,GEOGRAFÍA,Cordillera de los Andes,Cordillera Blanca,Cordillera Central,Cordillera Occidental,Cordillera Oriental,A
+152,¿Qué océano baña la costa del Perú?,,GEOGRAFÍA,Atlántico,Índico,Pacífico,Antártico,Ártico,C
+153,¿Cuál es el río más largo del Perú?,,GEOGRAFÍA,Río Amazonas,Río Ucayali,Río Marañón,Río Madre de Dios,Río Huallaga,A
+154,¿Qué región natural del Perú se caracteriza por su clima seco y desértico?,,GEOGRAFÍA,Costa,Sierra,Selva,Puna,Yunga,A
+155,¿En qué hemisferios se encuentra ubicado el Perú?,,GEOGRAFÍA,Norte y Oeste,Sur y Oeste,Norte y Este,Sur y Este,Solo en el hemisferio Oeste,B
+156,¿Cuál es el lago navegable más alto del mundo?,,GEOGRAFÍA,Lago Titicaca,Lago Baikal,Lago Victoria,Lago Superior,Lago Michigan,A
+157,¿Qué corriente marina influye en el clima árido de la costa peruana?,,GEOGRAFÍA,Corriente de Humboldt,Corriente del Niño,Corriente del Golfo,Corriente de Benguela,Corriente Circumpolar,A
+158,¿Cuál de estos países no tiene frontera con Perú?,,GEOGRAFÍA,Ecuador,Brasil,Argentina,Colombia,Chile,C
+159,¿Qué tipo de relieve predomina en la sierra peruana?,,GEOGRAFÍA,Llanuras,Mesetas,Montañas,Valles,Depresiones,C
+160,¿En qué región se encuentra el Nevado Huascarán?,,GEOGRAFÍA,Cusco,Áncash,Puno,Arequipa,Junín,B
+161,¿Cuál es el desierto más extenso de Sudamérica?,,GEOGRAFÍA,Sechura,Atacama,Monte,Patagónico,Guajira,B
+162,¿Qué fenómeno climático provoca lluvias intensas en la costa del Perú?,,GEOGRAFÍA,La Niña,El Niño,Corriente de Humboldt,Anticiclón del Pacífico,Zona de Convergencia Intertropical,B
+163,¿Cuál es la capital de la región más extensa del Perú?,,GEOGRAFÍA,Iquitos,Puerto Maldonado,Pucallpa,Moyobamba,Huancayo,A
+164,¿En qué región del Perú se encuentra el Cañón del Colca?,,GEOGRAFÍA,Cusco,Arequipa,Puno,Moquegua,Apurímac,B
+165,¿Cómo se llama la capital de la provincia más austral del Perú?,,GEOGRAFÍA,Ilo,Tacna,Moquegua,Arequipa,Puno,B
+166,¿Cuál es la principal actividad económica en la selva peruana?,,GEOGRAFÍA,Agricultura,Minería,Turismo,Pesca,Ganadería,A
+167,¿Qué país sudamericano tiene la mayor extensión territorial?,,GEOGRAFÍA,Argentina,Brasil,Perú,Colombia,Venezuela,B
+168,"¿Qué región del Perú es conocida como ""la despensa del país""?",,GEOGRAFÍA,Costa,Selva,Sierra,Amazonía,Yunga,C
+169,¿Qué ríos forman el Amazonas en territorio peruano?,,GEOGRAFÍA,Ucayali y Marañón,Madre de Dios y Putumayo,Urubamba y Mantaro,Mantaro y Huallaga,Putumayo y Marañón,A
+170,¿Qué departamento del Perú posee la mayor cantidad de parques nacionales?,,GEOGRAFÍA,Loreto,Madre de Dios,Ucayali,San Martín,Puno,B
+171,¿Cuál es la capital de Australia?,,GEOGRAFÍA,Sídney,Melbourne,Canberra,Brisbane,Perth,C
+172,¿Qué país sudamericano no tiene salida al mar?,,GEOGRAFÍA,Uruguay,Ecuador,Paraguay,Venezuela,Guyana,C
+173,¿Qué línea imaginaria divide la Tierra en hemisferio norte y sur?,,GEOGRAFÍA,Trópico de Cáncer,Trópico de Capricornio,Meridiano de Greenwich,Ecuador,Círculo Polar Ártico,D
+174,¿En qué continente se encuentra el desierto del Sahara?,,GEOGRAFÍA,América,Asia,África,Oceanía,Europa,C
+175,¿Cuál es el país más poblado del mundo?,,GEOGRAFÍA,India,Estados Unidos,Brasil,China,Rusia,D
+176,¿Cuál es la capital de Rusia?,,GEOGRAFÍA,San Petersburgo,Kiev,Moscú,Minsk,Kazán,C
+177,¿En qué continente se encuentra el Everest?,,GEOGRAFÍA,América,Asia,África,Europa,Oceanía,B
+178,¿Cuál es el río más largo del mundo?,,GEOGRAFÍA,Amazonas,Nilo,Yangtsé,Misisipi,Congo,A
+179,"¿Qué país es conocido como ""el techo del mundo""?",,GEOGRAFÍA,India,Nepal,China,Tíbet,Mongolia,D
+180,¿Dónde se encuentra el monte Kilimanjaro?,,GEOGRAFÍA,Sudáfrica,Egipto,Kenia,Tanzania,Nigeria,D
+181,¿Cuál fue la principal causa de la Revolución Francesa?,,HISTORIA UNIVERSAL,La crisis económica y social,La expansión del Imperio Napoleónico,La Guerra de los Siete Años,La independencia de Estados Unidos,La invasión británica,A
+182,¿Qué documento promulgó los principios de libertad e igualdad durante la Revolución Francesa?,,HISTORIA UNIVERSAL,Declaración de Independencia,Carta Magna,Declaración de los Derechos del Hombre y del Ciudadano,Código Napoleónico,Manifiesto Comunista,C
+183,¿Quién lideró la Revolución de Independencia de Haití?,,HISTORIA UNIVERSAL,Simón Bolívar,Toussaint Louverture,Napoleón Bonaparte,Maximilien Robespierre,George Washington,B
+184,¿Qué tratado puso fin a la Primera Guerra Mundial?,,HISTORIA UNIVERSAL,Tratado de Versalles,Tratado de Tordesillas,Tratado de Utrecht,Tratado de París,Tratado de Brest-Litovsk,A
+185,¿En qué año comenzó la Revolución Industrial?,,HISTORIA UNIVERSAL,Siglo XVI,Siglo XVII,Siglo XVIII,Siglo XIX,Siglo XX,C
+186,¿Qué monarca inglés fue ejecutado durante la Revolución Inglesa?,,HISTORIA UNIVERSAL,Enrique VIII,Carlos I,Jorge III,Eduardo VI,Ricardo III,B
+187,¿Quién fue el líder de la Unificación Italiana?,,HISTORIA UNIVERSAL,Giuseppe Garibaldi,Otto von Bismarck,Napoleón III,Víctor Manuel II,Francisco José I,A
+188,¿Cuál de estos países NO formó parte de la Triple Entente en la Primera Guerra Mundial?,,HISTORIA UNIVERSAL,Francia,Rusia,Alemania,Reino Unido,Italia,C
+189,¿Qué evento marcó el inicio de la Segunda Guerra Mundial?,,HISTORIA UNIVERSAL,La invasión de Polonia,El ataque a Pearl Harbor,La firma del Pacto de Múnich,El bombardeo de Hiroshima,La Guerra Civil Española,A
+190,¿Qué país fue el primero en industrializarse?,,HISTORIA UNIVERSAL,Alemania,Francia,Reino Unido,Estados Unidos,Rusia,C
+191,¿Cuál fue la causa principal de la Guerra Fría?,,HISTORIA UNIVERSAL,La rivalidad entre Estados Unidos y la URSS,La caída del Imperio Otomano,La independencia de India,El auge del nazismo,El tratado de Versalles,A
+192,"¿Cuál de los siguientes imperios fue conocido como ""el imperio donde nunca se ponía el sol""?",,HISTORIA UNIVERSAL,Imperio Ruso,Imperio Otomano,Imperio Español,Imperio Británico,Imperio Napoleónico,D
+193,¿Quién fue el líder de la Revolución Rusa de 1917?,,HISTORIA UNIVERSAL,Iósif Stalin,León Trotsky,Nicolás II,Vladímir Lenin,Rasputín,D
+194,¿Qué imperio se disolvió tras la Primera Guerra Mundial?,,HISTORIA UNIVERSAL,Imperio Británico,Imperio Otomano,Imperio Chino,Imperio Bizantino,Imperio Persa,B
+195,¿Quién proclamó la independencia de la India en 1947?,,HISTORIA UNIVERSAL,Mahatma Gandhi,Jawaharlal Nehru,Winston Churchill,Muhammad Ali Jinnah,Indira Gandhi,A
+196,¿Cuál fue la causa principal de la Guerra de los Cien Años?,,HISTORIA UNIVERSAL,La disputa entre Francia e Inglaterra por el trono francés,La invasión mongola de Europa,La guerra entre el Sacro Imperio y España,El auge del protestantismo,La caída de Constantinopla,A
+197,¿Qué tratado dividió el mundo entre España y Portugal en 1494?,,HISTORIA UNIVERSAL,Tratado de Versalles,Tratado de Tordesillas,Tratado de Utrecht,Tratado de París,Tratado de Brest-Litovsk,B
+198,¿Qué acontecimiento marcó el inicio de la Edad Moderna?,,HISTORIA UNIVERSAL,La Revolución Francesa,La caída de Constantinopla,El descubrimiento de América,La Reforma Protestante,La Guerra de los Cien Años,C
+199,¿Qué país se convirtió en la primera república comunista en 1917?,,HISTORIA UNIVERSAL,Alemania,Rusia,China,Corea del Norte,Cuba,B
+200,¿Cuál fue el principal objetivo del Congreso de Viena en 1815?,,HISTORIA UNIVERSAL,Reorganizar Europa tras la derrota de Napoleón,Declarar la independencia de América Latina,Expandir el Imperio Británico,Crear la Unión Europea,Firmar el Tratado de Tordesillas,A
+201,¿Cuál fue la causa principal de la caída del Imperio Romano de Occidente?,,HISTORIA UNIVERSAL,La invasión de los vikingos,La caída del Imperio Romano,La peste negra,La Revolución Francesa,La Revolución Industrial,C
+202,¿Qué personaje es conocido por la unificación de Alemania en el siglo XIX?,,HISTORIA UNIVERSAL,Otto von Bismarck,Napoleón Bonaparte,Alejandro Magno,Julio César,Alejandro Magno,A
+203,¿En qué año se firmó la Declaración de Independencia de Estados Unidos?,,HISTORIA UNIVERSAL,1776,1789,1815,1914,1945,B
+204,¿Cuál de estos eventos marcó el inicio de la Edad Contemporánea?,,HISTORIA UNIVERSAL,La Revolución Industrial,La Revolución Francesa,La Revolución Industrial,La Revolución Rusa,La Revolución Inglesa,D
+205,¿Cuál fue el conflicto que enfrentó a la URSS y Estados Unidos sin un enfrentamiento directo entre ellos?,,HISTORIA UNIVERSAL,La Guerra de Vietnam,La Guerra Fría,La Guerra de los Cien Años,La Guerra Civil Española,La Guerra de los Treinta Años,A
+206,¿Qué civilización fue la primera en desarrollar la escritura cuneiforme?,,HISTORIA UNIVERSAL,Los mayas,Los incas,Los mayas,Los incas,Los vikingos,C
+207,¿Quién fue el primer emperador de China?,,HISTORIA UNIVERSAL,Confucio,Buda,Confucio,Aristóteles,Descartes,B
+208,¿Qué tratado puso fin a la Segunda Guerra Mundial en Europa?,,HISTORIA UNIVERSAL,Tratado de Versalles,Tratado de Utrecht,Tratado de Tordesillas,Tratado de Versalles,Tratado de Tordesillas,B
+209,¿Quién fue el principal impulsor de la Reforma Protestante?,,HISTORIA UNIVERSAL,Juan Calvino,Martín Lutero,Juan Calvino,Tomás de Aquino,San Agustín,D
+210,¿Cuál fue el motivo de la Guerra del Opio entre China y Gran Bretaña?,,HISTORIA UNIVERSAL,Disputas territoriales en Asia,Expansión del Imperio Otomano,La caída de Constantinopla,La Revolución Francesa,La Independencia de Estados Unidos,A
+211,¿Quién fue el último emperador inca antes de la llegada de los españoles?,,HISTORIA DEL PERÚ,Atahualpa,Huáscar,Túpac Amaru I,Manco Cápac,Pachacútec,E
+212,"¿En qué año se produjo la batalla de Ayacucho, que consolidó la independencia del Perú?",,HISTORIA DEL PERÚ,1821,1830,1824,1815,1800,D
+213,¿Cuál fue la civilización preincaica que construyó la ciudadela de Chan Chan?,,HISTORIA DEL PERÚ,Nazca,Moche,Chimú,Paracas,Tiahuanaco,C
+214,¿Qué virrey del Perú implementó las reformas borbónicas en el siglo XVIII?,,HISTORIA DEL PERÚ,Blasco Núñez de Vela,José de la Serna,Manuel de Amat y Juniet,José Fernando de Abascal,Francisco de Toledo,E
+215,¿Quién proclamó la independencia del Perú en 1821?,,HISTORIA DEL PERÚ,José de San Martín,Simón Bolívar,Miguel Grau,Antonio José de Sucre,José Faustino Sánchez Carrión,C
+216,¿Qué tratado puso fin a la Guerra del Pacífico entre Perú y Chile?,,HISTORIA DEL PERÚ,Tratado de Ancón,Tratado de Lima,Tratado de Versalles,Tratado de París,Tratado de Tordesillas,E
+217,¿Cuál fue la capital del Imperio Inca?,,HISTORIA DEL PERÚ,Cusco,Quito,Lima,Arequipa,Trujillo,D
+218,¿Qué presidente peruano implementó la reforma agraria en 1969?,,HISTORIA DEL PERÚ,Fernando Belaúnde Terry,Alan García,Juan Velasco Alvarado,Ollanta Humala,Alberto Fujimori,A
+219,¿Qué cultura preincaica construyó las Líneas de Nazca?,,HISTORIA DEL PERÚ,Moche,Wari,Nazca,Caral,Chavín,A
+220,¿Qué nombre recibió el levantamiento indígena liderado por Túpac Amaru II en 1780?,,HISTORIA DEL PERÚ,La rebelión de los incas,La insurrección del Tahuantinsuyo,La gran rebelión,La guerra indígena,El levantamiento incaico,E
+221,¿En qué año se produjo la Guerra del Pacífico?,,HISTORIA DEL PERÚ,1864,1870,1879,1884,1890,C
+222,¿Quién fue el líder de la Expedición Libertadora que llegó al Perú en 1820?,,HISTORIA DEL PERÚ,Bernardo O'Higgins,Simón Bolívar,José de San Martín,Manuel Belgrano,Antonio José de Sucre,B
+223,¿Qué presidente peruano gobernó durante la Guerra con Chile?,,HISTORIA DEL PERÚ,Ramón Castilla,Andrés A. Cáceres,Nicolás de Piérola,Miguel Grau,Manuel Pardo,A
+224,¿Quién fue el primer presidente del Perú tras la independencia?,,HISTORIA DEL PERÚ,Simón Bolívar,José de San Martín,Ramón Castilla,Andrés A. Cáceres,Francisco de Paula Santander,A
+225,¿Qué civilización preincaica es considerada la más antigua de América?,,HISTORIA DEL PERÚ,Moche,Chavín,Caral,Paracas,Tiahuanaco,C
+226,¿Qué gobernante inca fue el primero en expandir el imperio fuera del valle del Cusco?,,HISTORIA DEL PERÚ,Manco Cápac,Túpac Yupanqui,Pachacútec,Huayna Cápac,Atahualpa,B
+227,¿Qué documento estableció la fundación del Virreinato del Perú en 1542?,,HISTORIA DEL PERÚ,Cédula Real,Real Audiencia,Leyes de Indias,Ordenanzas Reales,Orden Real,E
+228,¿Quién dirigió la resistencia indígena contra los españoles en Vilcabamba hasta 1572?,,HISTORIA DEL PERÚ,Túpac Amaru I,Atahualpa,Túpac Amaru II,Manco Inca,Paullu Inca,B
+229,¿Cuál fue la principal causa de la rebelión de Túpac Amaru II en 1780?,,HISTORIA DEL PERÚ,El descontento por los impuestos,El abuso de los corregidores,El monopolio comercial español,El reparto de tierras indígenas,El control de los caminos reales,A
+230,¿En qué ciudad peruana se redactó la primera Constitución del país en 1823?,,HISTORIA DEL PERÚ,Lima,Cusco,Arequipa,Trujillo,Piura,E
+231,¿Cuál fue el conflicto armado entre Perú y Bolivia contra Chile a fines del siglo XIX?,,HISTORIA DEL PERÚ,Guerra de Independencia,Guerra del Salitre,Guerra del Pacífico,Guerra con Bolivia,Guerra del Cauca,D
+232,¿Qué presidente del Perú ordenó la Guerra con Ecuador en 1941?,,HISTORIA DEL PERÚ,Oscar R. Benavides,José Pardo y Barreda,Manuel A. Odría,Augusto B. Leguía,Sánchez Cerro,E
+233,¿Quién fue el militar peruano que dirigió la defensa del Morro de Arica en 1880?,,HISTORIA DEL PERÚ,Francisco Bolognesi,Andrés A. Cáceres,Miguel Grau,Ramón Castilla,José de San Martín,C
+234,¿Qué tratado definió los límites entre Perú y Brasil en 1909?,,HISTORIA DEL PERÚ,Tratado de Ancón,Tratado de Río de Janeiro,Tratado Velarde-Río Branco,Tratado Salomón-Lozano,Tratado de Tordesillas,C
+235,¿Quién fue el líder del movimiento reformista de la Reforma Universitaria de 1919 en el Perú?,,HISTORIA DEL PERÚ,Víctor Raúl Haya de la Torre,Luis Alberto Sánchez,José Carlos Mariátegui,Manuel González Prada,José de la Riva Agüero,D
+236,¿Qué tratado de 1929 estableció la devolución de Tacna al Perú?,,HISTORIA DEL PERÚ,Tratado de Versalles,Tratado de Lima,Tratado de Washington,Tratado de Ancón,Tratado de Paz de 1929,A
+237,¿En qué año se realizó la abolición legal de la esclavitud en el Perú?,,HISTORIA DEL PERÚ,1821,1824,1854,1860,1875,B
+238,¿Qué presidente lideró el gobierno peruano durante la Guerra del Cenepa en 1995?,,HISTORIA DEL PERÚ,Alberto Fujimori,Alejandro Toledo,Valentín Paniagua,Pedro Pablo Kuczynski,Alan García,C
+239,¿Cuál fue la batalla decisiva que marcó el fin del dominio español en el Perú?,,HISTORIA DEL PERÚ,Batalla de Ayacucho,Batalla de Junín,Batalla de Tarapacá,Batalla de Arica,Batalla de Chorrillos,B
+240,¿Quién fue el presidente peruano que impulsó la industrialización del país en la década de 1960?,,HISTORIA DEL PERÚ,Alan García,Fernando Belaúnde Terry,Juan Velasco Alvarado,Ollanta Humala,Manuel Prado Ugarteche,B
+241,¿Qué es la educación cívica?,,EDUCACIÓN CIVICA,El estudio de la historia antigua,La enseñanza de normas jurídicas,Un enfoque educativo que fomenta valores ciudadanos,La organización del Estado,Una materia exclusiva del derecho,C
+242,¿Cuál es el principal objetivo de la educación cívica?,,EDUCACIÓN CIVICA,Promover la participación activa en la sociedad,Formar líderes políticos,Enseñar economía,Fomentar la discriminación entre ciudadanos,Evitar el debate público,A
+243,¿Cuál de los siguientes es un valor cívico?,,EDUCACIÓN CIVICA,Solidaridad,Individualismo,Egoísmo,Irresponsabilidad,Aislamiento,A
+244,¿Por qué es importante la educación cívica en la sociedad?,,EDUCACIÓN CIVICA,Para controlar la opinión pública,Para establecer diferencias entre ciudadanos,Para fortalecer la convivencia y el respeto mutuo,Para promover ideologías políticas,Para excluir a ciertas comunidades,C
+245,¿Qué documento internacional reconoce los derechos fundamentales de las personas?,,EDUCACIÓN CIVICA,La Declaración Universal de los Derechos Humanos,El Tratado de París,El Código Civil,La Constitución de cada país,El Código Penal,A
+246,¿Cuál de los siguientes es un derecho humano fundamental?,,EDUCACIÓN CIVICA,La libertad de expresión,La censura,La discriminación,La esclavitud,La persecución política,A
+247,¿Qué significa el derecho a la igualdad?,,EDUCACIÓN CIVICA,Que todas las personas deben ser tratadas sin discriminación,Que algunas personas tienen más derechos que otras,Que solo los ciudadanos pueden acceder a los derechos,Que el Estado puede decidir quién es igual ante la ley,Que solo los extranjeros tienen derechos,A
+248,¿Cuál es la función principal de la familia en la sociedad?,,EDUCACIÓN CIVICA,Formar ciudadanos responsables y solidarios,Asegurar la acumulación de riqueza,Generar desigualdades económicas,Evitar la participación en la comunidad,Imponer creencias religiosas,A
+249,¿Qué es el matrimonio?,,EDUCACIÓN CIVICA,Una unión legal entre dos personas con derechos y deberes,Un contrato comercial,Un acuerdo entre empresas,Un procedimiento exclusivo de la realeza,Un acto sin validez jurídica,A
+250,¿Qué derecho fundamental tiene toda familia?,,EDUCACIÓN CIVICA,Acceder a una vivienda digna,Vivir sin educación,No pagar impuestos,Excluir a sus miembros,Evitar el acceso a la salud,A
+251,¿Cuáles son los tres poderes del Estado?,,EDUCACIÓN CIVICA,"Ejecutivo, Legislativo y Judicial","Político, Económico y Militar","Religioso, Civil y Comercial","Democrático, Autocrático y Parlamentario","Social, Jurídico y Cultural",A
+252,¿Cuál es la función del Poder Legislativo?,,EDUCACIÓN CIVICA,Crear y aprobar leyes,Administrar justicia,Dirigir la política exterior,Supervisar elecciones,Controlar el gasto público,A
+253,¿Quién lidera el Poder Ejecutivo en un sistema presidencialista?,,EDUCACIÓN CIVICA,El presidente de la República,El Congreso,El Tribunal Constitucional,El Ejército,La Policía Nacional,A
+254,¿Qué es la ONU?,,EDUCACIÓN CIVICA,Una organización internacional que promueve la paz y la cooperación,Una entidad bancaria,Una alianza militar,Una empresa privada,Un bloque económico,A
+255,¿Qué organismo se encarga de la infancia a nivel mundial?,,EDUCACIÓN CIVICA,UNICEF,OEA,FMI,OMC,OTAN,A
+256,¿Qué organización promueve los derechos laborales a nivel mundial?,,EDUCACIÓN CIVICA,OIT (Organización Internacional del Trabajo),UNESCO,FAO,ONU,OMS,A
+257,¿Cuál es el principal objetivo de la Defensa Civil?,,EDUCACIÓN CIVICA,Proteger a la población en casos de desastres naturales,Organizar eventos sociales,Administrar hospitales,Controlar la educación pública,Regular el comercio,A
+258,¿Qué institución es responsable de la seguridad interna del país?,,EDUCACIÓN CIVICA,La Policía Nacional,El Congreso,La ONU,El Ministerio de Cultura,El Tribunal Supremo,A
+259,¿Cuál es la función principal de las Fuerzas Armadas?,,EDUCACIÓN CIVICA,Defender la soberanía y el territorio nacional,Administrar empresas,Dirigir la economía,Promover campañas políticas,Regular la educación,A
+260,¿Qué significa la democracia?,,EDUCACIÓN CIVICA,Un sistema de gobierno donde el pueblo elige a sus representantes,Un modelo basado en el poder absoluto,Un régimen militarizado,Un sistema de herencia monárquica,Un método exclusivo de gobiernos autoritarios,A
+261,¿Qué es el voto?,,EDUCACIÓN CIVICA,Un derecho y deber ciudadano en una democracia,Un privilegio de ciertas clases sociales,Un trámite burocrático sin valor,Un beneficio exclusivo de políticos,Un acto de carácter privado sin regulación,A
+262,¿Qué acción fomenta la participación ciudadana?,,EDUCACIÓN CIVICA,Votar en elecciones,Evitar el debate político,Ignorar las leyes,Desinformar a la población,No respetar las normas,A
+263,¿Qué significa el Estado de Derecho?,,EDUCACIÓN CIVICA,Que todas las personas e instituciones están sujetas a la ley,Que el gobierno tiene poder absoluto,Que solo los jueces pueden decidir las leyes,Que las leyes no aplican a los gobernantes,Que cada persona puede imponer sus propias reglas,A
+264,¿Cuál es la función del Poder Judicial?,,EDUCACIÓN CIVICA,Administrar justicia y garantizar el cumplimiento de las leyes,Crear y aprobar leyes,Dirigir la política económica,Organizar procesos electorales,Supervisar el trabajo del Congreso,A
+265,¿Qué institución se encarga de organizar elecciones en un país democrático?,,EDUCACIÓN CIVICA,El Jurado Nacional de Elecciones (o su equivalente en cada país),La Policía Nacional,El Congreso,El Tribunal Constitucional,La Corte Suprema,A
+266,¿Qué es la ciudadanía?,,EDUCACIÓN CIVICA,"El vínculo legal entre una persona y un Estado, que le otorga derechos y deberes",Un documento de identidad,Un grupo social sin responsabilidades,Un permiso temporal para vivir en un país,Una categoría exclusiva para militares,A
+267,¿Cuál de las siguientes es una responsabilidad ciudadana?,,EDUCACIÓN CIVICA,Respetar y cumplir las leyes,No pagar impuestos,Evitar la participación política,Incumplir las normas de convivencia,No respetar a las autoridades,A
+268,¿Cuál es un deber cívico en una sociedad democrática?,,EDUCACIÓN CIVICA,Ejercer el voto en las elecciones,Evadir impuestos,Ignorar los problemas sociales,Desobedecer las normas de tránsito,Fomentar la desinformación,A
+269,¿Por qué es importante la educación en la sociedad?,,EDUCACIÓN CIVICA,Porque permite el desarrollo personal y social,Porque solo sirve para conseguir empleo,Porque impide el pensamiento crítico,Porque es una obligación sin valor real,Porque solo beneficia a los gobiernos,A
+270,¿Qué institución garantiza el acceso a la educación en un país?,,EDUCACIÓN CIVICA,El Ministerio de Educación (o su equivalente en cada país),El Congreso,La Policía Nacional,La Defensoría del Pueblo,El Tribunal Constitucional,A
+271,¿Qué es la psicología?,,PSICOLOGÍA,El estudio de la mente y la conducta humana,La investigación de enfermedades neurológicas,El análisis de la cultura y la sociedad,El estudio exclusivo de los trastornos mentales,La observación de fenómenos paranormales,A
+272,¿Cuál de las siguientes NO es una rama de la psicología?,,PSICOLOGÍA,Psicología clínica,Psicología del desarrollo,Psicología forense,Psicología mística,Psicología educativa,D
+273,¿Qué escuela psicológica fue fundada por Sigmund Freud?,,PSICOLOGÍA,Conductismo,Gestalt,Psicoanálisis,Humanismo,Cognitivismo,C
+274,¿Qué corriente psicológica enfatiza el aprendizaje mediante el refuerzo y el castigo?,,PSICOLOGÍA,Psicoanálisis,Estructuralismo,Conductismo,Gestalt,Humanismo,C
+275,¿Cuál de los siguientes es un factor biológico que influye en el comportamiento humano?,,PSICOLOGÍA,Cultura,Medio social,Herencia genética,Educación,Medios de comunicación,C
+276,¿Qué factor ambiental tiene un impacto significativo en el desarrollo psicológico?,,PSICOLOGÍA,La inteligencia innata,La exposición a experiencias tempranas,La maduración biológica,La estructura cerebral,La genética,B
+277,¿En qué etapa del desarrollo humano ocurre la pubertad?,,PSICOLOGÍA,Infancia,Prenatal,Adolescencia,Adultez,Senectud,C
+278,¿Cuál de las siguientes NO es una etapa del desarrollo humano?,,PSICOLOGÍA,Prenatal,Infancia,Senectud,Hibernación,Adolescencia,D
+279,¿Qué es la percepción?,,PSICOLOGÍA,Un proceso mental que permite interpretar estímulos sensoriales,La respuesta automática del sistema nervioso,La transmisión de información genética,Un reflejo involuntario del organismo,La memoria a largo plazo,A
+280,¿Cuál de los siguientes es un ejemplo de proceso cognoscitivo?,,PSICOLOGÍA,Respiración,Digestión,Atención,Sudoración,Contracción muscular,C
+281,¿Qué tipo de memoria almacena información a corto plazo?,,PSICOLOGÍA,Sensorial,Operativa,A largo plazo,Procedimental,Semántica,B
+282,¿Quién desarrolló la teoría de la inteligencia emocional?,,PSICOLOGÍA,Jean Piaget,Howard Gardner,Daniel Goleman,Sigmund Freud,John Watson,C
+283,¿Cuál es una característica de la motivación intrínseca?,,PSICOLOGÍA,Se basa en recompensas externas,Depende de la presión social,Surge del interés personal,Es controlada por factores genéticos,Se limita a la infancia,C
+284,¿Cuál es un ejemplo de emoción primaria?,,PSICOLOGÍA,Culpa,Sorpresa,Vergüenza,Orgullo,Gratitud,B
+285,¿Cuál de las siguientes NO es una forma de aprendizaje?,,PSICOLOGÍA,Condicionamiento clásico,Imitación,Memorización espontánea,Condicionamiento operante,Aprendizaje significativo,C
+286,¿Quién es el principal representante del conductismo?,,PSICOLOGÍA,Carl Rogers,B.F. Skinner,Jean Piaget,Sigmund Freud,Lev Vygotsky,B
+287,¿Qué teoría explica la personalidad a través de factores genéticos y ambientales?,,PSICOLOGÍA,Psicodinámica,Humanista,Conductista,Biopsicosocial,Estructuralista,D
+288,¿Qué término describe la parte innata del comportamiento humano?,,PSICOLOGÍA,Personalidad,Cultura,Temperamento,Aprendizaje,Memoria,C
+289,¿Quién propuso la teoría de los tipos psicológicos?,,PSICOLOGÍA,Carl Jung,Sigmund Freud,Jean Piaget,Erik Erikson,William James,A
+290,¿Cuál de las siguientes es una de las dimensiones de personalidad según Jung?,,PSICOLOGÍA,Introversión-extraversión,Sensación-percepción,Memoria-cognición,Impulsividad-reflexión,Emoción-pensamiento,A
+291,¿Qué tipo de aprendizaje implica la modificación del comportamiento mediante recompensas o castigos?,,PSICOLOGÍA,Aprendizaje observacional,Aprendizaje latente,Condicionamiento operante,Aprendizaje social,Aprendizaje mecánico,C
+292,"Según Piaget, ¿en qué etapa del desarrollo cognitivo los niños comienzan a pensar de manera lógica sobre eventos concretos?",,PSICOLOGÍA,Sensoriomotora,Preoperacional,Operaciones concretas,Operaciones formales,Metacognitiva,C
+293,¿Cuál de los siguientes conceptos describe la tendencia a cambiar el comportamiento para encajar en un grupo?,,PSICOLOGÍA,Disonancia cognitiva,Conformidad,Autorregulación,Individualismo,Identidad personal,B
+294,¿Qué trastorno psicológico se caracteriza por períodos de euforia extrema seguidos de depresión severa?,,PSICOLOGÍA,Trastorno de ansiedad generalizada,Esquizofrenia,Trastorno bipolar,Trastorno obsesivo-compulsivo,Fobia social,C
+295,¿Cuál es el principal agente de socialización en la infancia?,,PSICOLOGÍA,Escuela,Amigos,Familia,Redes sociales,Televisión,C
+296,¿Cuál de los siguientes NO es considerado una emoción básica según Paul Ekman?,,PSICOLOGÍA,Alegría,Sorpresa,Culpa,Miedo,Ira,C
+297,¿Qué área del cerebro está relacionada con la comprensión del lenguaje?,,PSICOLOGÍA,Hipocampo,Corteza motora,Área de Wernicke,Área de Broca,Cerebelo,C
+298,¿Qué fenómeno explica que podamos reconocer una canción aunque se toque con un instrumento diferente?,,PSICOLOGÍA,Constancia perceptual,Atención selectiva,Ilusión óptica,Disonancia cognitiva,Memoria episódica,A
+299,¿Qué estilo de liderazgo se enfoca en la colaboración y la participación de los empleados en la toma de decisiones?,,PSICOLOGÍA,Autocrático,Laissez-faire,Democrático,Transformacional,Carismático,C
+300,¿Cuál de las siguientes estrategias es una técnica efectiva para reducir el estrés?,,PSICOLOGÍA,Suprimir emociones,Evitar cualquier situación desafiante,Practicar la meditación y la respiración profunda,Ignorar los problemas,Depender exclusivamente de la suerte,C
+301,¿Cuál es la principal característica del Neoclasicismo en la literatura?,,LITERATURA,La exaltación de los sentimientos sobre la razón,El predominio de la razón y las normas sobre la emoción,El rechazo total de la tradición clásica,El uso exclusivo de la prosa sobre la poesía,La fusión entre lo místico y lo filosófico,B
+302,¿Qué obra de Leandro Fernández de Moratín critica los matrimonios arreglados?,,LITERATURA,La vida es sueño,El sí de las niñas,Don Álvaro o la fuerza del sino,Rimas,Bodas de sangre,B
+303,¿Qué autor pertenece a la Generación del 98 en España?,,LITERATURA,Gustavo Adolfo Bécquer,Miguel de Unamuno,Antonio Buero Vallejo,Pedro Calderón de la Barca,Francisco de Quevedo,B
+304,¿Cuál de los siguientes escritores pertenece al Romanticismo español?,,LITERATURA,Federico García Lorca,Gustavo Adolfo Bécquer,Benito Pérez Galdós,Ramón María del Valle-Inclán,Antonio Machado,B
+305,¿Qué tema predomina en las Rimas de Gustavo Adolfo Bécquer?,,LITERATURA,La naturaleza como elemento sagrado,La exaltación patriótica,El amor idealizado y la melancolía,La crítica social y política,El realismo costumbrista,C
+306,¿Quién es considerado el máximo exponente del teatro neoclásico en España?,,LITERATURA,Tirso de Molina,Pedro Calderón de la Barca,Leandro Fernández de Moratín,Lope de Vega,José Zorrilla,C
+307,¿Qué caracteriza la literatura realista del siglo XIX?,,LITERATURA,El subjetivismo y la imaginación desbordante,La idealización de los personajes,La representación objetiva y detallada de la sociedad,El predominio de la poesía sobre la novela,La falta de narrador omnisciente,C
+308,¿Quién escribió Fortunata y Jacinta?,,LITERATURA,Benito Pérez Galdós,Juan Ramón Jiménez,Gustavo Adolfo Bécquer,Pío Baroja,Miguel de Unamuno,A
+309,¿Cuál es una característica fundamental del teatro de Lope de Vega?,,LITERATURA,La regla de las tres unidades aristotélicas,El uso exclusivo del verso endecasílabo,El rechazo a la mezcla de lo trágico y lo cómico,La introducción de la estructura en tres actos,El uso exclusivo del monólogo,D
+310,¿Qué autor escribió La Celestina?,,LITERATURA,Fernando de Rojas,Francisco de Quevedo,Garcilaso de la Vega,Luis de Góngora,Jorge Manrique,A
+311,¿Cuál es la principal característica del Neoclasicismo en la literatura?,,LITERATURA,La exaltación de los sentimientos sobre la razón,El predominio de la razón y las normas sobre la emoción,El rechazo total de la tradición clásica,El uso exclusivo de la prosa sobre la poesía,La fusión entre lo místico y lo filosófico,B
+312,¿Qué obra de Leandro Fernández de Moratín critica los matrimonios arreglados?,,LITERATURA,La vida es sueño,El sí de las niñas,Don Álvaro o la fuerza del sino,Rimas,Bodas de sangre,B
+313,¿Qué autor pertenece a la Generación del 98 en España?,,LITERATURA,Gustavo Adolfo Bécquer,Miguel de Unamuno,Antonio Buero Vallejo,Pedro Calderón de la Barca,Francisco de Quevedo,B
+314,¿Cuál de los siguientes escritores pertenece al Romanticismo español?,,LITERATURA,Federico García Lorca,Gustavo Adolfo Bécquer,Benito Pérez Galdós,Ramón María del Valle-Inclán,Antonio Machado,B
+315,¿Qué tema predomina en las Rimas de Gustavo Adolfo Bécquer?,,LITERATURA,La naturaleza como elemento sagrado,La exaltación patriótica,El amor idealizado y la melancolía,La crítica social y política,El realismo costumbrista,C
+316,¿Quién es considerado el máximo exponente del teatro neoclásico en España?,,LITERATURA,Tirso de Molina,Pedro Calderón de la Barca,Leandro Fernández de Moratín,Lope de Vega,José Zorrilla,C
+317,¿Qué caracteriza la literatura realista del siglo XIX?,,LITERATURA,El subjetivismo y la imaginación desbordante,La idealización de los personajes,La representación objetiva y detallada de la sociedad,El predominio de la poesía sobre la novela,La falta de narrador omnisciente,C
+318,¿Quién escribió Fortunata y Jacinta?,,LITERATURA,Benito Pérez Galdós,Juan Ramón Jiménez,Gustavo Adolfo Bécquer,Pío Baroja,Miguel de Unamuno,A
+319,¿Cuál es una característica fundamental del teatro de Lope de Vega?,,LITERATURA,La regla de las tres unidades aristotélicas,El uso exclusivo del verso endecasílabo,El rechazo a la mezcla de lo trágico y lo cómico,La introducción de la estructura en tres actos,El uso exclusivo del monólogo,D
+320,¿Qué autor escribió La Celestina?,,LITERATURA,Fernando de Rojas,Francisco de Quevedo,Garcilaso de la Vega,Luis de Góngora,Jorge Manrique,A
+321,¿Cuál es la principal característica del Neoclasicismo en la literatura?,,LITERATURA,La exaltación de los sentimientos sobre la razón,El predominio de la razón y las normas sobre la emoción,El rechazo total de la tradición clásica,El uso exclusivo de la prosa sobre la poesía,La fusión entre lo místico y lo filosófico,B
+322,¿Qué obra de Leandro Fernández de Moratín critica los matrimonios arreglados?,,LITERATURA,La vida es sueño,El sí de las niñas,Don Álvaro o la fuerza del sino,Rimas,Bodas de sangre,B
+323,¿Qué autor pertenece a la Generación del 98 en España?,,LITERATURA,Gustavo Adolfo Bécquer,Miguel de Unamuno,Antonio Buero Vallejo,Pedro Calderón de la Barca,Francisco de Quevedo,B
+324,¿Cuál de los siguientes escritores pertenece al Romanticismo español?,,LITERATURA,Federico García Lorca,Gustavo Adolfo Bécquer,Benito Pérez Galdós,Ramón María del Valle-Inclán,Antonio Machado,B
+325,¿Qué tema predomina en las Rimas de Gustavo Adolfo Bécquer?,,LITERATURA,La naturaleza como elemento sagrado,La exaltación patriótica,El amor idealizado y la melancolía,La crítica social y política,El realismo costumbrista,C
+326,¿Quién es considerado el máximo exponente del teatro neoclásico en España?,,LITERATURA,Tirso de Molina,Pedro Calderón de la Barca,Leandro Fernández de Moratín,Lope de Vega,José Zorrilla,C
+327,¿Qué caracteriza la literatura realista del siglo XIX?,,LITERATURA,El subjetivismo y la imaginación desbordante,La idealización de los personajes,La representación objetiva y detallada de la sociedad,El predominio de la poesía sobre la novela,La falta de narrador omnisciente,C
+328,¿Quién escribió Fortunata y Jacinta?,,LITERATURA,Benito Pérez Galdós,Juan Ramón Jiménez,Gustavo Adolfo Bécquer,Pío Baroja,Miguel de Unamuno,A
+329,¿Cuál es una característica fundamental del teatro de Lope de Vega?,,LITERATURA,La regla de las tres unidades aristotélicas,El uso exclusivo del verso endecasílabo,El rechazo a la mezcla de lo trágico y lo cómico,La introducción de la estructura en tres actos,El uso exclusivo del monólogo,D
+330,¿Qué autor escribió La Celestina?,,LITERATURA,Fernando de Rojas,Francisco de Quevedo,Garcilaso de la Vega,Luis de Góngora,Jorge Manrique,A
+331,"¿Qué función del lenguaje predomina en la siguiente expresión? ""¡Qué bello es este paisaje!""",,LENGUAJE,Referencial,Expresiva,Metalingüística,Apelativa,Fática,B
+332,¿Cuál de las siguientes palabras es un ejemplo de polisemia?,,LENGUAJE,Coche,Cuadro,Planta,Sierra,Todas las anteriores,E
+333,"¿Cuál es el sujeto de la oración ""Se vendieron todas las entradas para el concierto""?",,LENGUAJE,Todas las entradas,El concierto,Se vendieron,Para el concierto,No hay sujeto,A
+334,"¿Qué tipo de oración es ""Si tuviera tiempo, viajaría por el mundo""?",,LENGUAJE,Enunciativa,Exhortativa,Interrogativa,Condicional,Exclamativa,D
+335,¿Qué palabra está mal escrita?,,LENGUAJE,Epifanía,Exalar,Extravagante,Esplendor,Excéntrico,B
+336,"¿Cuál es el sinónimo más adecuado para la palabra ""esquivo"" en el siguiente contexto? ""Pedro es una persona esquiva con los desconocidos.""",,LENGUAJE,Amistoso,Inaccesible,Cercano,Confiable,Sociable,B
+337,"¿Cuál es el término hipónimo de ""flor""?",,LENGUAJE,Planta,Rosa,Naturaleza,Hojas,Tallo,B
+338,¿Qué oración presenta un pleonasmo?,,LENGUAJE,Sube arriba.,El viento mueve las hojas.,Mañana será un gran día.,No quiero salir ahora.,Están jugando en el parque.,A
+339,¿Cuál de las siguientes palabras es un ejemplo de homonimia?,,LENGUAJE,Vela (de barco) / Vela (de cera),Camión / Camioneta,Espejo / Cristal,Tierra / Suelo,Puente / Acueducto,A
+340,¿Cuál de los siguientes términos es un latinismo?,,LENGUAJE,A posteriori,Relevante,Deseable,Pendiente,Inmediato,A
+341,"¿Qué tipo de acento tiene la palabra ""también""?",,LENGUAJE,Ortográfico,Diacrítico,Prosódico,Enfático,Ninguno,A
+342,¿Cuál de las siguientes oraciones contiene un gerundio mal utilizado?,,LENGUAJE,Fue caminando a la escuela.,Estaba corriendo cuando empezó a llover.,Construyeron la casa pintándola de azul.,Estoy estudiando para el examen.,Él sigue hablando sin parar.,C
+343,¿Qué oración es un ejemplo de anfibología?,,LENGUAJE,Vi a Pedro con los binoculares.,Me gusta el cine clásico.,Los niños juegan en el parque.,La profesora enseña matemáticas.,María lee un libro interesante.,A
+344,"¿Qué tipo de error gramatical se presenta en la oración ""La policía capturó a los ladróns anoche""?",,LENGUAJE,Solecismo,Dequeísmo,Barbarismo,Anfibología,Queísmo,C
+345,"¿Qué figura retórica está presente en la siguiente oración? ""Era tan alto como un rascacielos.""",,LENGUAJE,Metáfora,Hipérbole,Prosopopeya,Elipsis,Antítesis,B
+346,"¿Cuál es la función del lenguaje predominante en la siguiente oración? ""Es imprescindible que sigamos las normas de seguridad 
+para evitar accidentes.""",,LENGUAJE,Expresiva,Poética,Metalingüística,Apelativa,Fática,D
+347,¿En cuál de las siguientes oraciones se ha empleado una metáfora?,,LENGUAJE,Su corazón es un volcán a punto de estallar.,Corrió tan rápido como un guepardo.,Pedro es más alto que su hermano.,El coche rugió al encenderse.,Estaba tan cansado que se quedó dormido de inmediato.,A
+348,"Identifique el enunciado en el que la palabra ""como"" funciona como conjunción comparativa.",,LENGUAJE,Me explicó el problema como si yo fuera un experto.,No había visto nunca una película como esa.,Actuó como su hermano mayor.,Era tan ágil como un felino.,Me gusta el café como lo prepara mi abuela.,D
+349,"¿Qué figura literaria predomina en la siguiente frase? ""El viento cantaba su melodía entre los árboles.""",,LENGUAJE,Hipérbole,Metáfora,Prosopopeya,Antítesis,Sinestesia,C
+350,¿Cuál de las siguientes opciones contiene un barbarismo?,,LENGUAJE,La ambigüedad de sus palabras causó confusión.,¿Me prestas tu pluma para firmar el documento?,La atmosfera estaba cargada de tensión.,Fue una escena estremecedora.,El niño se cayó y lloró mucho.,C
+351,¿En qué oración se emplea correctamente el dequeísmo?,,LENGUAJE,Me dijo de que vendría temprano.,No cabe duda de que lo logrará.,Pensó de que era una buena idea.,Estoy seguro de que él es culpable.,B y D son correctas.,E
+352,"¿Cuál es la relación semántica entre las palabras ""frío"" y ""calor""?",,LENGUAJE,Sinónimos,Homónimos,Parónimos,Antónimos,Polisémicos,D
+353,¿Cuál de los siguientes enunciados es un ejemplo de anfibología?,,LENGUAJE,La carta fue escrita por su madre y su hermano.,La sombra de los árboles nos daba tranquilidad.,El niño perdió su pelota en el parque.,La profesora explicó la lección con paciencia.,Me entregaron el informe esta mañana.,A
+354,"¿Qué tipo de oración es la siguiente? ""Si estudiaras más, aprobarías el examen.""",,LENGUAJE,Enunciativa,Interrogativa,Imperativa,Exclamativa,Condicional,E
+355,"¿Qué tipo de sustantivo es ""manada""?",,LENGUAJE,Propio,Abstracto,Colectivo,Individual,Contable,C
+356,¿Cuál de los siguientes enunciados presenta un solecismo?,,LENGUAJE,La ventana fue rota por el viento.,Vinistes muy temprano hoy.,Nos vemos en la tarde.,El profesor explicó detalladamente la teoría.,Juan es más alto que su hermano.,B
+357,¿En qué oración se ha empleado correctamente la concordancia?,,LENGUAJE,Los grupo de estudiantes llegaron temprano.,La mayoría de las personas está de acuerdo.,El problema se solucionó con rapidez.,Lo dijeron en la radio que llovería mañana.,Me gustaría de que vinieras con nosotros.,B
+358,"En la oración ""Los niños juegan felices en el parque"", el complemento ""en el parque"" es:",,LENGUAJE,Complemento directo,Complemento circunstancial de lugar,Complemento circunstancial de modo,Atributo,Complemento agente,B
+359,¿En qué opción se ha cometido un error ortográfico?,,LENGUAJE,La acción del viento erosiona la montaña.,Te recomiendo que hagas una pausa.,Nos dirigimos hacia el centro de la ciudad.,No he visto álla a nadie conocido.,Fue un viaje inolvidable.,D
+360,¿Qué oración contiene un hipérbaton?,,LENGUAJE,El viento soplaba con fuerza en la montaña.,Con fuerza en la montaña el viento soplaba.,La luna iluminaba la noche.,Las aves cantaban al amanecer.,El mar azul brillaba bajo el sol.,B
+361,Un ángulo en posición normal mide 120°. ¿En qué cuadrante se encuentra?,,TRIGONOMETRÍA,I,II,III,IV,No pertenece a ningún cuadrante,B
+362,¿Cuál es el valor de sen 45°?,,TRIGONOMETRÍA,1/2,√3/2,1,√2/2,0,D
+363,"Si cos(θ) = 3/5 y θ está en el primer cuadrante, ¿cuál es el valor de sen(θ)?",,TRIGONOMETRÍA,4/5,3/5,5/3,1,√2/2,A
+364,¿Cuánto vale tan(30°)?,,TRIGONOMETRÍA,1,√3,√3/3,1/2,2,C
+365,¿Cuál es la identidad trigonométrica fundamental?,,TRIGONOMETRÍA,sen²θ + cos²θ = 1,tan²θ + cos²θ = 1,sec²θ - tan²θ = 0,cos²θ + senθ = 1,cot²θ + sen²θ = 1,A
+366,¿Cuánto vale sec(0°)?,,TRIGONOMETRÍA,0,1,2,Indeterminado,-1,B
+367,¿Cuál es la tangente de un ángulo de 90°?,,TRIGONOMETRÍA,0,1,√3,Indefinido,-1,D
+368,"Si θ es un ángulo del segundo cuadrante, entonces su seno es:",,TRIGONOMETRÍA,Positivo,Negativo,Nulo,Indeterminado,No se puede determinar,A
+369,¿Cuál es el valor de cos(60°)?,,TRIGONOMETRÍA,1/2,√3/2,0,1,-1,A
+370,¿Cuál es el ángulo cuya tangente es igual a 1?,,TRIGONOMETRÍA,30°,45°,60°,90°,0°,B
+371,La suma de los ángulos internos de un triángulo es:,,TRIGONOMETRÍA,90°,120°,180°,270°,360°,C
+372,"Si sen(θ) = 4/5 y θ está en el segundo cuadrante, ¿cuál es el valor de cos(θ)?",,TRIGONOMETRÍA,3/5,-3/5,4/5,-4/5,1,B
+373,¿Cuánto vale cot(45°)?,,TRIGONOMETRÍA,0,1,√3,2,Indeterminado,B
+374,¿Cuál es el valor de cos(90° - θ)?,,TRIGONOMETRÍA,cos(θ),-sen(θ),sen(θ),-cos(θ),0,C
+375,¿Cuál es el valor de sen(2θ) en términos de sen(θ) y cos(θ)?,,TRIGONOMETRÍA,2sen(θ)cos(θ),sen²(θ) + cos²(θ),cos²(θ) - sen²(θ),1 - 2cos²(θ),1 - sen²(θ),A
+376,"Si tan(θ) = 2/3, ¿cuánto vale sen(θ)?",,TRIGONOMETRÍA,2/√13,3/√13,2/√5,3/5,3/√5,E
+377,¿Cuál es la derivada de sen(x)?,,TRIGONOMETRÍA,cos(x),-cos(x),sen(x),-sen(x),1,A
+378,"Si cos(x) = 0, ¿qué valores puede tomar x en el intervalo [0,360°]?",,TRIGONOMETRÍA,0°,90° y 270°,180°,45° y 135°,60° y 300°,B
+379,La ecuación cos(x) = 0 no tiene soluciones en:,,TRIGONOMETRÍA,90°,180°,270°,360°,45°,D
+380,¿Cuál es el valor de tan(2θ) en términos de tan(θ)?,,TRIGONOMETRÍA,2tan(θ) / (1 - tan²(θ)),1 - 2tan²(θ),sen(θ) / cos(θ),cos²(θ) - sen²(θ),sen²(θ) - cos²(θ),A
+381,¿Cuánto vale sec(30°)?,,TRIGONOMETRÍA,2/√3,1,2,√3,3,A
+382,¿Cuál es el valor de cot(60°)?,,TRIGONOMETRÍA,√3,1/√3,1,0,-1,B
+383,"Si sen(x) = 0.6, ¿cuánto vale cos(x) si x está en el primer cuadrante?",,TRIGONOMETRÍA,0.8,0.6,0.5,0.4,0.2,A
+384,¿Cuál es la ecuación fundamental de la tangente?,,TRIGONOMETRÍA,tan(θ) = sen(θ) / cos(θ),tan(θ) = cos(θ) / sen(θ),tan(θ) = sec(θ) / cot(θ),tan(θ) = 1 / cos(θ),tan(θ) = 1 / sen(θ),A
+385,¿Cuánto vale el área de un triángulo con base 10 cm y altura 8 cm?,,TRIGONOMETRÍA,20 cm²,30 cm²,40 cm²,50 cm²,60 cm²,C
+386,¿Cuánto es sen(π/6)?,,TRIGONOMETRÍA,1/2,√3/2,0,1,-1,A
+387,¿Cuál es el ángulo cuyo seno es 1?,,TRIGONOMETRÍA,0°,45°,90°,180°,270°,C
+388,¿Cuánto vale cos(π)?,,TRIGONOMETRÍA,0,-1,1,1/2,-1/2,B
+389,"Si cos(θ) = 4/5, ¿cuánto vale sec(θ)?",,TRIGONOMETRÍA,4/5,5/4,3/5,5/3,1,B
+390,¿Cuál es la cosecante de 30°?,,TRIGONOMETRÍA,2,1,1/2,√3/2,3,A
+391,¿Cuál es la suma de los ángulos interiores de un pentágono?,,GEOMETRÍA,540°,360°,450°,720°,180°,A
+392,"Si un triángulo tiene lados de 5 cm, 12 cm y 13 cm, ¿qué tipo de triángulo es?",,GEOMETRÍA,Escaleno,Isósceles,Rectángulo,Equilátero,Obtusángulo,C
+393,¿Cuál es el volumen de un cubo cuya arista mide 4 cm?,,GEOMETRÍA,16 cm³,32 cm³,64 cm³,48 cm³,20 cm³,C
+394,"Dado un triángulo equilátero de lado 10 cm, ¿cuál es su altura?",,GEOMETRÍA,5√3 cm,10√3 cm,15 cm,10 cm,7√3 cm,A
+395,"En la figura, calcula el valor del ángulo ""x"".",,GEOMETRÍA,30°,45°,60°,90°,120°,C
+396,"Si un cuadrado tiene una diagonal de 10√2 cm, ¿cuál es la longitud de su lado?",,GEOMETRÍA,5 cm,10 cm,15 cm,20 cm,25 cm,B
+397,"En la figura, calcula el área del triángulo sombreado.",,GEOMETRÍA,12 cm²,24 cm²,36 cm²,18 cm²,30 cm²,B
+398,El área de un círculo es 16π cm². ¿Cuál es su radio?,,GEOMETRÍA,2 cm,3 cm,4 cm,5 cm,6 cm,C
+399,"En la figura, determina el valor del segmento AB.",,GEOMETRÍA,5 cm,10 cm,15 cm,20 cm,25 cm,D
+400,"Si el volumen de una esfera es 36π cm³, ¿cuál es su radio?",,GEOMETRÍA,2 cm,3 cm,4 cm,6 cm,9 cm,B
+401,"En la figura, ¿cuál es el perímetro del hexágono regular?",,GEOMETRÍA,24 cm,30 cm,36 cm,48 cm,54 cm,C
+402,"Si un trapecio tiene bases de 10 cm y 6 cm, y altura de 4 cm, ¿cuál es su área?",,GEOMETRÍA,16 cm²,32 cm²,48 cm²,24 cm²,40 cm²,D
+403,"En la figura, encuentra la medida del ángulo desconocido.",,GEOMETRÍA,40°,50°,60°,70°,80°,C
+404,¿Cuál es la longitud de la hipotenusa de un triángulo rectángulo con catetos de 8 cm y 6 cm?,,GEOMETRÍA,10 cm,12 cm,14 cm,16 cm,18 cm,A
+405,"En la figura, determina el área del sector circular sombreado.",,GEOMETRÍA,10π cm²,15π cm²,20π cm²,25π cm²,30π cm²,C
+406,"Si un prisma rectangular tiene dimensiones de 3 cm, 4 cm y 5 cm, ¿cuál es su volumen?",,GEOMETRÍA,30 cm³,40 cm³,50 cm³,60 cm³,70 cm³,A
+407,"En la figura, encuentra la longitud de la cuerda en la circunferencia.",,GEOMETRÍA,6 cm,8 cm,10 cm,12 cm,14 cm,C
+408,¿Cuál es el área de un rombo con diagonales de 8 cm y 6 cm?,,GEOMETRÍA,24 cm²,30 cm²,36 cm²,40 cm²,48 cm²,A
+409,"En la figura, determina la altura del triángulo isósceles.",,GEOMETRÍA,5 cm,10 cm,15 cm,20 cm,25 cm,B
+410,"En la figura, calcula el radio de la circunferencia inscrita.",,GEOMETRÍA,3 cm,4 cm,5 cm,6 cm,7 cm,C
+411,"Si un cilindro tiene radio de 3 cm y altura de 7 cm, ¿cuál es su volumen?",,GEOMETRÍA,42π cm³,49π cm³,63π cm³,72π cm³,81π cm³,C
+412,"En la figura, encuentra la medida del ángulo central del sector circular.",,GEOMETRÍA,30°,45°,60°,90°,120°,D
+413,"¿Cuál es la distancia entre los puntos A(2,3) y B(6,7) en el plano cartesiano?",,GEOMETRÍA,2√2,3√2,4√2,5√2,6√2,C
+414,"En la figura, encuentra la longitud del arco sombreado.",,GEOMETRÍA,6π cm,8π cm,10π cm,12π cm,14π cm,D
+415,"Si un octágono tiene lados de 5 cm, ¿cuál es su perímetro?",,GEOMETRÍA,30 cm,35 cm,40 cm,45 cm,50 cm,C
+416,"En la figura, determina el área del trapecio isósceles.",,GEOMETRÍA,25 cm²,30 cm²,35 cm²,40 cm²,45 cm²,D
+417,"En la figura, encuentra la medida del segmento que divide al triángulo en dos partes iguales.",,GEOMETRÍA,5 cm,7 cm,9 cm,11 cm,13 cm,C
+418,"Si el área de un cuadrado es 81 cm², ¿cuál es su perímetro?",,GEOMETRÍA,24 cm,30 cm,36 cm,42 cm,48 cm,C
+419,"En la figura, determina la distancia entre los puntos marcados.",,GEOMETRÍA,4 cm,6 cm,8 cm,10 cm,12 cm,D
+420,"En la figura, halla el volumen del cono sombreado.",,GEOMETRÍA,20π cm³,25π cm³,30π cm³,35π cm³,40π cm³,C
+421,Determina el cardinal del conjunto A = {x ∈ ℕ | x < 10}.,,ÁLGEBRA,8,9,10,11,12,B
+422,Calcula el M.C.D. de 36 y 60.,,ÁLGEBRA,12,6,18,24,30,E
+423,¿Cuál es el número primo más cercano a 50?,,ÁLGEBRA,47,49,51,53,55,A
+424,¿Cuál es la expresión decimal de 3/8?,,ÁLGEBRA,0.25,0.375,0.5,0.625,0.75,B
+425,¿Cuál es la representación geométrica de √25?,,ÁLGEBRA,2,3,4,6,6,D
+426,¿Cuál es el valor absoluto de -15?,,ÁLGEBRA,-15,0,10,15,20,D
+427,Resuelve la ecuación: 3x - 7 = 8.,,ÁLGEBRA,3,5,7,9,11,B
+428,"Si f(x) = 2x² - 3x + 4, calcula f(2).",,ÁLGEBRA,4,6,8,10,12,D
+429,¿Cuál es el resultado de (x + 2)²?,,ÁLGEBRA,x² + 4x + 4,x² + 4,x² + 2x + 2,x² + x + 2,x² + 3x + 4,A
+430,Factoriza la expresión: x² - 9.,,ÁLGEBRA,(x - 3)(x - 3),(x + 3)(x + 3),(x - 3)(x + 3),(x - 9)(x + 1),(x - 9)(x - 9),C
+431,Determina el número de diagonales de un hexágono.,,ÁLGEBRA,9,12,15,18,21,B
+432,"Si un polinomio tiene grado 4, ¿cuál es el grado de su derivada?",,ÁLGEBRA,0,2,3,4,5,C
+433,Factoriza x² - 4x + 4.,,ÁLGEBRA,(x - 2)(x - 2),(x - 4)(x + 2),(x + 2)(x + 2),(x - 2)(x + 2),(x - 4)(x - 4),A
+434,¿Cuál es el coeficiente principal de 5x³ - 2x + 7?,,ÁLGEBRA,5,3,-2,7,1,A
+435,"Si x² + bx + 25 tiene una raíz en x = 5, ¿cuánto vale b?",,ÁLGEBRA,-10,-5,0,5,10,A
+436,"Resuelve el sistema de ecuaciones: x + y = 7, x - y = 3.",,ÁLGEBRA,"(2, 5)","(4, 3)","(5, 2)","(3, 4)","(6, 1)",B
+437,¿Cuál es el máximo común divisor de 48 y 64?,,ÁLGEBRA,8,12,16,24,32,C
+438,Resuelve la ecuación cuadrática: x² - 4x - 5 = 0.,,ÁLGEBRA,x = 1 y x = -5,x = 5 y x = -1,x = 2 y x = -3,x = 4 y x = -2,x = 6 y x = -2,B
+439,¿Cuál es el área de un triángulo de base 8 cm y altura 5 cm?,,ÁLGEBRA,10,20,30,40,50,B
+440,"¿Cuál es la distancia entre los puntos (1, 2) y (4, 6)?",,ÁLGEBRA,3,5,6,7,8,B
+441,"Si log₂16 = x, ¿cuánto vale x?",,ÁLGEBRA,2,3,4,5,6,C
+442,Resuelve la ecuación log(x) = 2.,,ÁLGEBRA,2,10,100,1000,10000,C
+443,"Si x³ = 125, ¿cuánto vale x?",,ÁLGEBRA,3,4,5,6,7,C
+444,Encuentra el valor de sen 30°.,,ÁLGEBRA,0,0.5,1,√3/2,2,B
+445,¿Cuál es la derivada de f(x) = 3x² - 2x + 4?,,ÁLGEBRA,6x - 2,6x + 2,2x - 6,x² - 4x,4x + 2,A
+446,"Si f(x) = x³ - 3x + 2, encuentra f’(x).",,ÁLGEBRA,3x² - 3,3x - 3,3x² + 2,x² - 3x,x³ - 3x²,A
+447,¿Cuánto es 3^(-2)?,,ÁLGEBRA,1/3,1/9,1/6,3,9,B
+448,Resuelve la ecuación exponencial 2^x = 16.,,ÁLGEBRA,2,3,4,5,6,C
+449,¿Cuál es el resultado de 5! ?,,ÁLGEBRA,24,60,120,240,360,C
+450,"Si log₃81 = x, ¿cuánto vale x?",,ÁLGEBRA,2,3,4,5,6,C
+451,El número de subconjuntos de un conjunto con 5 elementos es 32.,,ARITMÉTICA,10,25,16,32,64,
+452,"Si x=MCD(36,60) y y=MCM(36,60), entonces x+y=216.",,ARITMÉTICA,180,96,216,120,144,
+453,El resultado de (−5)×(−8)+12÷(−4) es 38.,,ARITMÉTICA,36,38,40,37,38,
+454,La representación decimal de 87​ es 0.875.,,ARITMÉTICA,0.875,0.78,0.87,0.88,0.777,
+455,Un número irracional entre las opciones dadas es π.,,ARITMÉTICA,25​,43​,π,1.5,0.5,
+456,"Si a:b=2:3 y b:c=4:5, la razón a:c es 8:15.",,ARITMÉTICA,2:5,8:15,6:7,4:7,5:9,
+457,"Si $600 se reparte en partes inversamente proporcionales a 2 y 3, la mayor parte recibe $360.",,ARITMÉTICA,200,300,360,240,150,
+458,"La media de las edades 10, 12, 15, 18 y 25 es 16.",,ARITMÉTICA,15,16,18,20,14,
+459,La probabilidad de obtener un número par al lanzar un dado es 21​.,,ARITMÉTICA,61​,31​,21​,32​,65​,
+460,"Si 3x−5=16, el valor de x es 6.",,ARITMÉTICA,5,6,7,8,9,
+461,Las soluciones de la ecuación x2−5x+6=0 son 2 y 3.,,ARITMÉTICA,1 y 6,2 y 3,-2 y -3,3 y 5,-1 y -6,
+462,El menor número divisible por 8 y 12 es 24.,,ARITMÉTICA,12,16,24,32,48,
+463,82/3 es igual a 4.,,ARITMÉTICA,4,6,8,16,4,
+464,log2​16 es igual a 4.,,ARITMÉTICA,2,3,4,5,6,
+465,"Si un producto cuesta $200 y se aplica un descuento del 15%, el precio final es $180.",,ARITMÉTICA,$170,$180,$185,$190,$195,
+466,"Si 4 obreros construyen una casa en 12 días, 6 obreros la construirán en 8 días.",,ARITMÉTICA,8,9,10,11,12,
+467,El MCD de 42 y 56 es 14.,,ARITMÉTICA,7,8,14,21,28,
+468,"El término 10 de la progresión aritmética 3, 7, 11, 15,... es 35.",,ARITMÉTICA,35,40,45,50,55,
+469,El interés simple de $5000 con una tasa del 4% anual en 3 años es $600.,,ARITMÉTICA,$600,$500,$400,$300,$700,
+470,"Si se invierten $2000 a una tasa de interés compuesto del 10% anual durante 2 años, el monto final es $2420.",,ARITMÉTICA,"$2,200","$2,400","$2,420","$2,420","$2,420",
+471,"La media de los números 5, 10, 15, 20 y 25 es 15.",,ARITMÉTICA,10,12,15,18,20,
+472,"La mediana del conjunto 2, 4, 6, 8, 10, 12, 14 es 8.",,ARITMÉTICA,6,7,8,9,10,
+473,"La moda del conjunto 3, 4, 5, 5, 6, 7, 7, 7, 8 es 7.",,ARITMÉTICA,5,6,7,8,No hay moda,
+474,La probabilidad de sacar un as en una baraja de 52 cartas es 131​.,,ARITMÉTICA,41​,131​,261​,521​,21​,
+475,Un auto que viaja a 80 km/h recorrerá 240 km en 3 horas.,,ARITMÉTICA,2 horas,2.5 horas,3 horas,3.5 horas,4 horas,
+476,"Si un premio de $1200 se reparte en partes proporcionales a 2, 3 y 5, la parte mayor recibe $500.",,ARITMÉTICA,$200,$300,$500,$600,$800,
+477,La factorización de x2−9 es (x+3)(x−3).,,ARITMÉTICA,(x+3)(x−3),(x+3)(x+3),(x−3)(x−3),(x+9)(x−1),No se puede factorizar,
+478,El resultado de 43​+65​ es 2419​.,,ARITMÉTICA,2419​,2418​,2417​,2420​,2421​,
+479,La fracción equivalente de 0.125 es 81​.,,ARITMÉTICA,51​,81​,101​,121​,201​,
+480,La raíz cuadrada de 144 es 12.,,ARITMÉTICA,10,11,12,13,14,
+481,"¿Cuál es el sinónimo más adecuado de la palabra ""efímero""?",,HABILIDAD VERBAL,Eterno,Fugaz,Intenso,Transparente,Débil,B
+482,"Si ""libro"" es a ""lectura"", entonces ""instrumento"" es a...",,HABILIDAD VERBAL,Música,Escritor,Científico,Instrumentista,Danza,A
+483,Elija la opción donde las palabras sean antónimos.,,HABILIDAD VERBAL,Alegría - Euforia,Transparente - Opaco,Amable - Cortés,Pacífico - Tranquilo,Grande - Extenso,B
+484,"¿Qué palabra continúa la serie? Casa, edificio, rascacielos, ...",,HABILIDAD VERBAL,Puente,Departamento,Colina,Torre,Barrio,D
+485,"Elija la opción que complete correctamente la analogía: ""Óptico es a ojo como...""",,HABILIDAD VERBAL,Cardiólogo es a corazón,Piloto es a carretera,Pintor es a pincel,Director es a escuela,Cocinero es a comida,A
+486,"Si ""correr"" es a ""maratón"", entonces ""nadar"" es a...",,HABILIDAD VERBAL,Agua,Competencia,Piscina,Natación,Estilo,D
+487,"¿Qué palabra completa mejor la relación? ""Luz es a sombra como alegría es a...""",,HABILIDAD VERBAL,Esperanza,Tristeza,Sonrisa,Amor,Optimismo,B
+488,Elija la opción donde haya un error de redundancia.,,HABILIDAD VERBAL,Sube arriba,La luna brilla en la noche,Entró dentro del auto,Salió afuera rápidamente,A y C,E
+489,"¿Qué palabra NO es sinónimo de ""valiente""?",,HABILIDAD VERBAL,Intrépido,Audaz,Pusilánime,Osado,Arrojado,C
+490,"Si ""día"" es a ""sol"", entonces ""noche"" es a...",,HABILIDAD VERBAL,Luna,Tierra,Nube,Océano,Sombra,A
+491,"¿Qué palabra completa correctamente la siguiente serie? Uno, dos, cuatro, ocho, ...",,HABILIDAD VERBAL,Doce,Diez,Dieciséis,Quince,Veinte,C
+492,Elija la opción donde las palabras sean parónimas.,,HABILIDAD VERBAL,Abrazar - Abrasar,Hacer - Hacer,Sede - Cede,Hasta - Asta,Excepción - Expectorar,A
+493,"Si ""médico"" es a ""hospital"", entonces ""maestro"" es a...",,HABILIDAD VERBAL,Escuela,Aula,Pizarra,Educación,Universidad,A
+494,"¿Cuál es el significado de la palabra ""adusto""?",,HABILIDAD VERBAL,Alegre,Serio,Fuerte,Cálido,Inseguro,B
+495,"¿Qué palabra se relaciona con ""orfandad"" de la misma manera que ""viudez"" se relaciona con ""viudo""?",,HABILIDAD VERBAL,Desamparo,Niño,Huérfano,Familia,Madre,C
+496,Elija la opción con palabras sinónimas.,,HABILIDAD VERBAL,Correr - Caminar,Brillante - Opaco,Lívido - Pálido,Rápido - Lento,Fácil - Difícil,C
+497,"Si ""panadero"" es a ""pan"", entonces ""carpintero"" es a...",,HABILIDAD VERBAL,Hierro,Papel,Puerta,Madera,Casa,D
+498,"¿Qué palabra es sinónimo de ""acervo""?",,HABILIDAD VERBAL,Conjunto,Escasez,Pérdida,Fragmento,Confusión,A
+499,"¿Qué tipo de relación guardan las palabras ""sabio"" e ""ignorante""?",,HABILIDAD VERBAL,Sinonimia,Antonimia,Paronimia,Homonimia,Polisemia,B
+500,"¿Qué palabra completa correctamente la analogía? ""Río es a agua como carretera es a...""",,HABILIDAD VERBAL,Asfalto,Puente,Auto,Tráfico,Trayecto,A
+501,¿Qué palabra rompe la relación semántica?,,HABILIDAD VERBAL,Manzana,Pera,Sandía,Zanahoria,Durazno,D
+502,Elija la opción que contiene un barbarismo.,,HABILIDAD VERBAL,Quisimos comprar el libro.,Hubieron muchas personas en la sala.,Fue a la tienda en la mañana.,Están jugando en el parque.,Me gusta la literatura.,B
+503,"Si ""cuchillo"" es a ""cortar"", entonces ""martillo"" es a...",,HABILIDAD VERBAL,Perforar,Golpear,Tallar,Apretar,Atornillar,B
+504,Elija la opción donde hay anfibología.,,HABILIDAD VERBAL,Me gusta la pintura de Miguel.,Juan trabaja en el hospital.,Las estrellas brillan en la noche.,Compré un auto rojo.,Los niños juegan en el parque.,A
+505,"¿Qué tipo de relación existe entre las palabras ""banco"" y ""banco"" (asiento / institución financiera)?",,HABILIDAD VERBAL,Sinonimia,Homonimia,Paronimia,Polisemia,Antónimos,B
+506,¿Qué oración presenta un error de concordancia?,,HABILIDAD VERBAL,Nosotros fuimos al cine.,Las luces del estadio estaban encendidas.,La mayoría de los estudiantes aprobé el examen.,Los niños juegan en el parque.,El perro ladra fuerte.,C
+507,"Si ""día"" es a ""semana"", entonces ""mes"" es a...",,HABILIDAD VERBAL,Año,Década,Día,Hora,Calendario,A
+508,¿Qué opción contiene un pleonasmo?,,HABILIDAD VERBAL,Salió afuera.,El mar es inmenso.,El niño juega en la calle.,Compré una bicicleta azul.,La profesora enseña matemáticas.,A
+509,"¿Qué palabra es un sinónimo de ""indeleble""?",,HABILIDAD VERBAL,Borrable,Permanente,Tenaz,Débil,Insignificante,B
+510,"Elija la opción que mejor complete la analogía: ""Lluvia es a paraguas como sol es a...""",,HABILIDAD VERBAL,Calor,Gafas,Sombra,Nieve,Día,B
+511,Un operador matemático especial define la operación ⊕ como sigue: A ⊕ B = (A × B) + (A + B). ¿Cuál es el resultado de 4 ⊕ 3?,,HABILIDAD LÓGICO MATEMÁTICO,19,20,21,22,23,C
+512,"¿Cuál es el siguiente número en la serie? 2, 6, 12, 20, 30, …",,HABILIDAD LÓGICO MATEMÁTICO,42,44,42,46,48,B
+513,"Si 7x - 3 = 4x + 9, ¿cuánto vale x?",,HABILIDAD LÓGICO MATEMÁTICO,x = 4,x = 3,x = 4,x = 5,x = 6,C
+514,Un número de dos cifras tiene la propiedad de que la suma de sus cifras es 8 y la diferencia entre el número original y el invertido es 36. ¿Cuál es el número?,,HABILIDAD LÓGICO MATEMÁTICO,53,62,71,44,80,A
+515,"Si f(x) = x² - 4x + 3, ¿cuáles son los valores de x para los que f(x) = 0?",,HABILIDAD LÓGICO MATEMÁTICO,x = 1 y x = 3,x = 2 y x = 3,x = -1 y x = -3,x = 4 y x = 5,x = 0 y x = 6,A
+516,Un reloj marca las 3:15. ¿Cuál es el ángulo entre la manecilla de las horas y la de los minutos?,,HABILIDAD LÓGICO MATEMÁTICO,7.5°,15°,7.5°,30°,45°,B
+517,"Si log(x) = 2, ¿cuál es el valor de x?",,HABILIDAD LÓGICO MATEMÁTICO,x = 100,x = 10,x = 1000,x = 0.01,x = 1,B
+518,"Un padre tiene el triple de la edad de su hijo. Dentro de 10 años, la suma de sus edades será 80. ¿Cuál es la edad del hijo actualmente?",,HABILIDAD LÓGICO MATEMÁTICO,20 años,15 años,25 años,10 años,30 años,D
+519,"Si un número es aumentado en un 25% y luego reducido en un 20%, ¿cuál es el cambio neto en porcentaje?",,HABILIDAD LÓGICO MATEMÁTICO,Disminuye un 5%,0%,5%,10%,15%,C
+520,¿Cuántos triángulos hay en una figura compuesta por un triángulo equilátero subdividido en 9 triángulos más pequeños?,,HABILIDAD LÓGICO MATEMÁTICO,27 triángulos,12 triángulos,15 triángulos,18 triángulos,24 triángulos,C
+521,La ecuación de una recta es 3x - 2y = 6. ¿Cuál es la pendiente de la recta?,,HABILIDAD LÓGICO MATEMÁTICO,3/2,-3,2/3,-3/2,1/2,D
+522,Un tren de 200 metros de longitud viaja a una velocidad de 90 km/h. ¿Cuánto tiempo tardará en cruzar completamente un puente de 300 metros de longitud?,,HABILIDAD LÓGICO MATEMÁTICO,20 segundos,15 segundos,20 segundos,25 segundos,30 segundos,C
+523,"Si x es directamente proporcional a y y x = 10 cuando y = 4, ¿cuál es el valor de x cuando y = 10?",,HABILIDAD LÓGICO MATEMÁTICO,x = 25,x = 20,x = 25,x = 30,x = 35,C
+524,"Si A = {1, 2, 3, 4} y B = {3, 4, 5, 6}, ¿cuál es la intersección A ∩ B?",,HABILIDAD LÓGICO MATEMÁTICO,"{3, 4}","{1, 2}","{5, 6}","{1, 2, 3, 4, 5, 6}",∅,B
+525,"¿Cuántas permutaciones diferentes pueden formarse con las letras de la palabra ""CASA""?",,HABILIDAD LÓGICO MATEMÁTICO,12,24,36,48,120,B
+526,"Un comerciante obtiene una ganancia del 20% sobre el costo. Si vende un artículo por 600 euros, ¿cuál fue su costo original?",,HABILIDAD LÓGICO MATEMÁTICO,500 euros,480 euros,500 euros,520 euros,550 euros,C
+527,"En un grupo de 50 personas, 30 hablan inglés, 25 hablan francés y 10 hablan ambos idiomas. ¿Cuántas personas no hablan ninguno de estos idiomas?",,HABILIDAD LÓGICO MATEMÁTICO,5 personas,10 personas,15 personas,20 personas,25 personas,C
+528,La suma de los ángulos internos de un polígono es 1440°. ¿Cuántos lados tiene el polígono?,,HABILIDAD LÓGICO MATEMÁTICO,10 lados,9 lados,10 lados,11 lados,12 lados,C
+529,"Si x² + y² = 25 y x + y = 7, ¿cuál es el valor de xy?",,HABILIDAD LÓGICO MATEMÁTICO,xy = 12,xy = 13,xy = 14,xy = 15,xy = 16,B
+530,"Si la probabilidad de que llueva el lunes es 0.7 y la probabilidad de que llueva el martes es 0.6, ¿cuál es la probabilidad de que llueva al menos un día? (Asume independencia).",,HABILIDAD LÓGICO MATEMÁTICO,0.88,0.42,0.58,0.88,0.9,D
+531,"¿Cuántos números de tres cifras pueden formarse usando los dígitos 1, 2, 3, 4 y 5 sin repetir?",,HABILIDAD LÓGICO MATEMÁTICO,60 números,30 números,40 números,50 números,60 números,D
+532,Un prisma rectangular tiene dimensiones 3 cm × 4 cm × 5 cm. ¿Cuál es su volumen?,,HABILIDAD LÓGICO MATEMÁTICO,60 cm³,50 cm³,60 cm³,70 cm³,80 cm³,D
+533,¿Cuál es la inversa de la matriz [21​11​],,HABILIDAD LÓGICO MATEMÁTICO,[1−1​−12​],[2−1​−11​],[11​−12​],[1−1​−11​],[−11​1−2​],B
+534,"Un triángulo tiene lados de 7 cm, 24 cm y 25 cm. ¿Es un triángulo rectángulo?",,HABILIDAD LÓGICO MATEMÁTICO,Sí,No,No se puede determinar,Solo si se rota,Ninguna de las anteriores,A
+535,"Si a² - b² = (a - b)(a + b), ¿cuál es el resultado de 49 - 36 expresado en factores?",,HABILIDAD LÓGICO MATEMÁTICO,(7 - 6)(7 + 6),(8 - 5)(8 + 5),(10 - 3)(10 + 3),(9 - 4)(9 + 4),(11 - 2)(11 + 2),D
+536,La suma de los primeros n números impares es 361. ¿Cuál es el valor de n?,,HABILIDAD LÓGICO MATEMÁTICO,n = 19,n = 18,n = 19,n = 20,n = 21,C
+537,"Si el radio de un círculo es 6 cm, ¿cuál es su área en cm²?",,HABILIDAD LÓGICO MATEMÁTICO,36π cm²,48π cm²,72π cm²,100π cm²,144π cm²,A
+538,"Si la suma de los ángulos exteriores de un polígono es siempre constante, ¿cuál es su valor en grados?",,HABILIDAD LÓGICO MATEMÁTICO,360°,270°,360°,540°,720°,C
+539,"Si un número es divisible por 9, ¿cuál de las siguientes opciones debe ser verdadera?",,HABILIDAD LÓGICO MATEMÁTICO,La suma de sus dígitos es múltiplo de 9,Termina en 0,Es un número primo,La suma de sus cifras es impar,La suma de sus cifras es impar,B
+540,"Si la base de un logaritmo es 2 y el resultado de log₂64 es x, ¿cuál es el valor de x?",,HABILIDAD LÓGICO MATEMÁTICO,x = 6,x = 5,x = 6,x = 7,x = 8,C

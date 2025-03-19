@@ -8,4 +8,5 @@ export const INITIAL_MASTER_DATA = {
 	family: {
 		familyRelationships: [],
 	},
+	academicPeriods: [],
 };

@@ -13,4 +13,8 @@ export default class MasterService {
 		const response = await api.get('/family');
 		return response.data.data;
 	}
+	static async getAcademicPeriods() {
+		const response = await api.get('/academic-periods');
+		return response.data.data.academicPeriods;
+	}
 }

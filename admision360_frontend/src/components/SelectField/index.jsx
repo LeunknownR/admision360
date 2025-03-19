@@ -23,7 +23,7 @@ const SelectField = ({ label, placeholder, options, handler, styles = {} }) => {
 		return () => document.removeEventListener("click", clickHandler);
 	}, []);
 	useEffect(() => {
-		if (!handler.value) {
+		if (!handler.value || options.length === 0) {
 			setCurrentDisplay(placeholder);
 			return;
 		}
@@ -32,7 +32,7 @@ const SelectField = ({ label, placeholder, options, handler, styles = {} }) => {
 				placeholder
 		);
 		// eslint-disable-next-line react-hooks/exhaustive-deps
-	}, [handler.value]);
+	}, [handler.value, options]);
 	function getClassName() {
 		const classList = [];
 		if (handler.error?.value) classList.push("error");

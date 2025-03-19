@@ -1,30 +1,13 @@
-import { createContext, useState, useEffect } from "react";
+import { createContext } from "react";
 import PropTypes from "prop-types";
 import { INITIAL_MASTER_DATA } from "./constants";
-import MasterService from "../services/MasterService";
+import useMasterData from "./hooks/useMasterData";
 
 export const AppContext = createContext({
 	masterData: { ...INITIAL_MASTER_DATA },
 });
 const AppContextProvider = ({ children }) => {
-	const [masterData, setMasterData] = useState({
-		...INITIAL_MASTER_DATA,
-	});
-	const fetchData = async () => {
-		const [ubigeo, majors, family] = await Promise.all([
-			MasterService.getUbigeo(),
-			MasterService.getMajors(),
-			MasterService.getFamily(),
-		]);
-		setMasterData({
-			ubigeo,
-			majors,
-			family,
-		});
-	};
-	useEffect(() => {
-		fetchData();
-	}, []);
+	const masterData = useMasterData();
 	return (
 		<AppContext.Provider value={{ masterData }}>
 			{children}

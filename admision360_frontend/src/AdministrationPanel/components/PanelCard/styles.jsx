@@ -25,11 +25,12 @@ export const Container = styled(Link)`
 			width: 100%;
 		}
 		path {
+			fill: var(--secondary);
 			transition: 0.3s;
 		}
 	}
 	h4 {
-		color: var(--tertiary);
+		color: var(--secondary);
 		font-size: 16px;
 		font-weight: 700;
 		padding: 0 10px;

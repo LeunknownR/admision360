@@ -16,7 +16,7 @@ const LoginView = () => {
 			<Card>
 				<ViewHeader
 					title="INICIAR SESIÓN"
-					subtitle="Panel de administración"
+					description="Panel de administración"
 				/>
 				<CardFields>
 					<TextField

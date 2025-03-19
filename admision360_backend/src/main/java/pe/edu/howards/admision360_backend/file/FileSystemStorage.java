@@ -4,7 +4,6 @@ import org.springframework.stereotype.Component;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.util.Base64;
-import java.util.UUID;
 
 @Component
 public class FileSystemStorage {

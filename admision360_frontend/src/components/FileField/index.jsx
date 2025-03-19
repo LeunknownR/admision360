@@ -5,11 +5,11 @@ import { useRef } from "react";
 import { HandlerFieldPropType } from "../../common-prop-types";
 import ErrorMessage from "../ErrorMessage";
 
-const FileField = ({ label, handler, disabled = false, styles = {} }) => {
+const FileField = ({ label, handler, accept, disabled = false, styles = {} }) => {
 	const inputRef = useRef();
 	return (
 		<Container
-			className={handler.error.value ? "error" : ""}
+			className={handler.error?.value ? "error" : ""}
 			{...styles}
 			onClick={() => inputRef.current?.click()}
 		>
@@ -22,6 +22,7 @@ const FileField = ({ label, handler, disabled = false, styles = {} }) => {
 				ref={inputRef}
 				type="file"
 				hidden
+				accept={accept}
 				onChange={e => {
 					const file = e.target.files[0];
 					if (!file) return;
@@ -29,20 +30,21 @@ const FileField = ({ label, handler, disabled = false, styles = {} }) => {
 					reader.onload = () => {
 						handler.set({
 							filename: file.name,
-							base64: reader.result,
+							base64: reader.result.replace(/^data:.*;base64,/, ""),
 						});
 					};
 					reader.readAsDataURL(file);
 				}}
 				disabled={disabled}
 			/>
-			<ErrorMessage error={handler.error.value} />
+			<ErrorMessage error={handler.error?.value} />
 		</Container>
 	);
 };
 FileField.propTypes = {
 	label: PropTypes.string,
 	handler: HandlerFieldPropType,
+	accept: PropTypes.string,
 	disabled: PropTypes.bool,
 	styles: PropTypes.object,
 };

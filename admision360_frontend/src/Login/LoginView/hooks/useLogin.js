@@ -18,7 +18,6 @@ const useLogin = ({ form, setGlobalError }) => {
 			return;
 		}
 		const { token, username, name } = data;
-		console.log(data, AppRoutes.administrationPanel);
 		localStorage.setItem("token", token);
 		localStorage.setItem("user", JSON.stringify({ username, name }));
 		navigate(AppRoutes.administrationPanel);

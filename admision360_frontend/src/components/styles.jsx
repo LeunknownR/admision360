@@ -29,13 +29,17 @@ export const Flow = styled.div`
 	flex-wrap: wrap;
 	gap: ${({ gap = "20px" }) => gap};
 	align-items: ${({ align = "flex-start" }) => align};
+	align-self: ${({ alignSelf = "unset" }) => alignSelf};
+	margin-top: ${({ mt = "unset" }) => mt};
 	margin-bottom: ${({ mb = "unset" }) => mb};
 	width: ${({ w = "unset" }) => w};
+	max-width: ${({ maxw = "unset" }) => maxw};
 `;
 export const Grid = styled.div`
 	display: grid;
 	grid-template-columns: ${({ columns = "repeat(2, 1fr)" }) => columns};
 	gap: ${({ gap = "20px" }) => gap};
+	width: ${({ w = "unset" }) => w};
 `;
 export const ViewContainer = styled.section`
 	display: flex;

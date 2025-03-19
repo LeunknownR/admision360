@@ -146,8 +146,8 @@ BEGIN
     
     IF applicant_count = 0 THEN
         -- Insert new applicant
-        INSERT INTO applicant(dni, name, surname, gender, birth_date, email, phone, occupation, address, applying_date, origin_district_id, origin_province_id, origin_department_id, mayor_id, faculty_id, academic_period_id) 
-        VALUES (p_dni, p_name, p_surname, p_gender, p_birth_date, p_email, p_phone, p_occupation, p_address, CURDATE(), p_origin_district_id, p_origin_province_id, p_origin_department_id, p_mayor_id, p_faculty_id, p_academic_period_id);
+        INSERT INTO applicant(dni, name, surname, gender, birth_date, email, phone, occupation, address, applying_date, origin_district_id, origin_province_id, origin_department_id, origin_address, mayor_id, faculty_id, academic_period_id) 
+        VALUES (p_dni, p_name, p_surname, p_gender, p_birth_date, p_email, p_phone, p_occupation, p_address, CURDATE(), p_origin_district_id, p_origin_province_id, p_origin_department_id, p_origin_address, p_mayor_id, p_faculty_id, p_academic_period_id);
         
         SET @last_id = LAST_INSERT_ID();
 
@@ -197,6 +197,89 @@ BEGIN
         
         SELECT p_success;
     END IF;
+END //
+
+
+DROP PROCEDURE IF EXISTS sp_get_applicant / /
+
+CREATE PROCEDURE sp_get_applicant(
+    IN p_dni VARCHAR(8),
+    IN p_academic_period_id VARCHAR(3)
+)
+BEGIN
+    SELECT 
+        ap.dni,
+        CONCAT(ap.name, ' ', ap.surname) AS 'full_name',
+        CASE WHEN gender = 'M' 
+            THEN 'Masculino' 
+            ELSE 'Femenino' 
+        END AS 'gender',
+        ap.birth_date,
+        ap.email,
+        ap.phone,
+        ap.occupation,
+        ap.address,
+        origin_dpt.name AS 'origin_department',
+        origin_prv.name AS 'origin_province',
+        origin_dst.name AS 'origin_district',
+        ap.origin_address,
+        CASE WHEN apei.institution_type = 'E' 
+            THEN 'Estatal' 
+            ELSE 'Particular' 
+        END AS 'institution_type',
+        apei.name AS 'institution_name',
+        CASE WHEN apei.is_completed_education = 1 
+            THEN 'Completado' 
+            ELSE 'Cursando 5° año'
+        END AS 'education_state',
+        apei.end_year AS 'education_end_year',
+        apei_dpt.name AS 'educational_institution_department',
+        apei_prv.name AS 'educational_institution_province',
+        apei_dst.name AS 'educational_institution_district',
+        apei.address,
+        apr.full_name AS 'representative_full_name',
+        frel.name AS 'representative_relationship',
+        apr.email AS 'representative_email',
+        apr.phone AS 'representative_phone',
+        apr.occupation AS 'representative_occupation',
+        mj.name AS 'major_name',
+        fc.name AS 'faculty_name',
+        apd.dni_filename,
+        apd.study_certificate_filename,
+        apd.statement_not_criminal_record_filename,
+        apd.compromise_study_certificate_filename,
+        apd.documentary_progress_five_year_filename
+    FROM applicant ap
+    INNER JOIN department origin_dpt ON origin_dpt.id = ap.origin_department_id
+    INNER JOIN province origin_prv ON origin_prv.id = ap.origin_province_id
+    INNER JOIN district origin_dst ON origin_dst.id = ap.origin_district_id
+    INNER JOIN major mj ON mj.id = ap.mayor_id
+    INNER JOIN faculty fc ON mj.faculty_id = fc.id
+    INNER JOIN applicant_representative apr ON apr.applicant_id = ap.id
+    INNER JOIN applicant_educational_institution apei ON apei.applicant_id = ap.id
+    INNER JOIN family_relationship frel ON frel.id = apr.family_relationship_id
+    INNER JOIN department apei_dpt ON apei_dpt.id = apei.department_id
+    INNER JOIN province apei_prv ON apei_prv.id = ap.origin_province_id
+    INNER JOIN district apei_dst ON apei_dst.id = ap.origin_district_id
+    INNER JOIN applicant_document apd ON apd.applicant_id = ap.id
+    WHERE ap.dni = p_dni AND ap.academic_period_id = p_academic_period_id;
+END //
+
+
+DROP PROCEDURE IF EXISTS get_all_exam_models / /
+
+CREATE PROCEDURE get_all_exam_models(
+	IN p_academic_period_id VARCHAR(3)
+)
+BEGIN
+    SELECT 
+        id,
+        area,
+        model,
+        filename
+    FROM exam
+    WHERE academic_period_id = p_academic_period_id
+    ORDER BY model, area;
 END //
 
 DELIMITER / /

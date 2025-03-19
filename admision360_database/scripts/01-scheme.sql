@@ -2,7 +2,9 @@ USE mysql;
 
 DROP DATABASE IF EXISTS admision360;
 
-CREATE DATABASE admision360;
+CREATE DATABASE admision360 
+CHARACTER SET utf8mb4 
+COLLATE utf8mb4_unicode_ci;
 
 USE admision360;
 
@@ -74,6 +76,7 @@ CREATE TABLE applicant(
     origin_district_id INT NOT NULL,
     origin_province_id INT NOT NULL,
     origin_department_id INT NOT NULL,
+    origin_address VARCHAR(100) NOT NULL,
     mayor_id INT NOT NULL,
     faculty_id INT NOT NULL,
     academic_period_id VARCHAR(3) NOT NULL,
@@ -120,4 +123,44 @@ CREATE TABLE applicant_educational_institution(
     FOREIGN KEY (province_id) REFERENCES province(id),
     FOREIGN KEY (department_id) REFERENCES department(id),
     FOREIGN KEY (applicant_id) REFERENCES applicant(id)
+);
+
+CREATE TABLE bank_question(
+    id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    number INT NOT NULL,
+    question TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+    photo VARCHAR(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+    section VARCHAR(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+    A TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+    B TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+    C TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+    D TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+    E TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+    answer VARCHAR(1) NOT NULL,
+    academic_period_id VARCHAR(3) NOT NULL,
+    FOREIGN KEY (academic_period_id) REFERENCES academic_period(id)
+);
+
+CREATE TABLE exam(
+    id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    area VARCHAR(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+    model VARCHAR(1) NOT NULL ,
+    filename VARCHAR(50) NOT NULL,
+    academic_period_id VARCHAR(3) NOT NULL,
+    FOREIGN KEY (academic_period_id) REFERENCES academic_period(id)
+);
+
+CREATE TABLE exam_question(
+    id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    number INT NOT NULL,
+    question TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+    photo VARCHAR(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+    section VARCHAR(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+    A TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+    B TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+    C TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+    D TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+    E TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+    exam_id INT NOT NULL,
+    FOREIGN KEY (exam_id) REFERENCES exam(id)
 );

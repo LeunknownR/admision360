@@ -5,7 +5,7 @@ import AdministrationPanelView from "../AdministrationPanel/AdministrationPanelV
 import AppRoutes from "./AppRoutes";
 import PublicRoute from "./PublicRoute";
 import PrivateRoute from "./PrivateRoute";
-import ExamGenerationView from "../AdministrationPanel/ExamGenerationView";
+import GenerateExamsView from "../AdministrationPanel/GenerateExamsView";
 import QualifyExamsView from "../AdministrationPanel/QualifyExamsView";
 
 const MasterRouter = () => {
@@ -36,7 +36,7 @@ const MasterRouter = () => {
 					path="/admin/generar-examenes"
 					element={
 						<PrivateRoute>
-							<ExamGenerationView />
+							<GenerateExamsView />
 						</PrivateRoute>
 					}
 				/>
